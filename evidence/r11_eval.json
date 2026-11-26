@@ -1,0 +1,78 @@
+{
+ "hit_rate_at_5": 1.0,
+ "mrr": 1.0,
+ "status": "pass",
+ "ran": "2026-11-26T07:35:23Z",
+ "judges": [
+  {
+   "id": "G01",
+   "score": 1.0,
+   "verdict": "Correctly identifies the accepted event"
+  },
+  {
+   "id": "G02",
+   "score": 1.0,
+   "verdict": "The answer is correct."
+  },
+  {
+   "id": "G03",
+   "score": 1.0,
+   "verdict": "Answer is correct"
+  },
+  {
+   "id": "G04",
+   "score": 1.0,
+   "verdict": "Answer is correct"
+  },
+  {
+   "id": "G05",
+   "score": 1.0,
+   "verdict": "Answer is correct"
+  },
+  {
+   "id": "G06",
+   "score": 1.0,
+   "verdict": "The answer is correct"
+  },
+  {
+   "id": "G07",
+   "score": 1.0,
+   "verdict": "Answer is correct"
+  },
+  {
+   "id": "G08",
+   "score": 1.0,
+   "verdict": "Answer is correct"
+  },
+  {
+   "id": "G09",
+   "score": 1.0,
+   "verdict": "Answer is correct"
+  },
+  {
+   "id": "G10",
+   "score": 1.0,
+   "verdict": "Answer is correct"
+  },
+  {
+   "id": "G11",
+   "score": 1.0,
+   "verdict": "The answer is correct."
+  },
+  {
+   "id": "G12",
+   "score": 1.0,
+   "verdict": "Answer is correct"
+  },
+  {
+   "id": "UQ1",
+   "score": 1.0,
+   "verdict": "Correctly states the expected facts"
+  },
+  {
+   "id": "UQ2",
+   "score": 1.0,
+   "verdict": "Correctly states the information is not in the SOPs"
+  }
+ ]
+}
