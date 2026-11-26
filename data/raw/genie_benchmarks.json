@@ -1,0 +1,55 @@
+{
+  "as_of_date": "2026-08-31",
+  "benchmarks": [
+    {
+      "id": "B01",
+      "question": "How many orders were placed in August 2026?",
+      "ground_truth_sql": "SELECT count(*) AS orders FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_date d ON f.placed_date_key = d.date_key WHERE d.month_start = DATE'2026-08-01'"
+    },
+    {
+      "id": "B02",
+      "question": "What is the cancellation rate in each city?",
+      "ground_truth_sql": "SELECT z.city, round(count_if(f.status = 'cancelled') / count(*), 4) AS cancellation_rate FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_zone z ON f.zone_sk = z.zone_sk GROUP BY z.city"
+    },
+    {
+      "id": "B03",
+      "question": "What share of delivered Instant orders were late?",
+      "ground_truth_sql": "SELECT round(count_if(f.minutes_past_promise > 5) / count(*), 4) AS late_share FROM hop.analytics.fact_orders f WHERE f.status = 'delivered' AND f.delivery_class = 'instant'"
+    },
+    {
+      "id": "B04",
+      "question": "What share of delivered Standard orders were late?",
+      "ground_truth_sql": "SELECT round(count_if(f.minutes_past_promise > 20) / count(*), 4) AS late_share FROM hop.analytics.fact_orders f WHERE f.status = 'delivered' AND f.delivery_class = 'standard'"
+    },
+    {
+      "id": "B05",
+      "question": "What is the average delivery time in minutes of delivered orders for each delivery class?",
+      "ground_truth_sql": "SELECT f.delivery_class, round(avg(f.actual_minutes), 2) AS avg_delivery_minutes FROM hop.analytics.fact_orders f WHERE f.status = 'delivered' GROUP BY f.delivery_class"
+    },
+    {
+      "id": "B06",
+      "question": "Which restaurant (restaurant_id) had the most delivered orders?",
+      "ground_truth_sql": "SELECT r.restaurant_id, count(*) AS delivered_orders FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_restaurant r ON f.restaurant_sk = r.restaurant_sk WHERE f.status = 'delivered' GROUP BY r.restaurant_id ORDER BY delivered_orders DESC, r.restaurant_id LIMIT 1"
+    },
+    {
+      "id": "B07",
+      "question": "What was the total value of delivered orders for each customer tier?",
+      "ground_truth_sql": "SELECT c.tier, round(sum(f.order_value), 2) AS delivered_value FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_customer c ON f.customer_sk = c.customer_sk WHERE f.status = 'delivered' GROUP BY c.tier"
+    },
+    {
+      "id": "B08",
+      "question": "How many delivered orders went to each zone type in July 2026?",
+      "ground_truth_sql": "SELECT z.zone_type, count(*) AS delivered_orders FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_zone z ON f.zone_sk = z.zone_sk JOIN hop.analytics.dim_date d ON f.placed_date_key = d.date_key WHERE f.status = 'delivered' AND d.month_start = DATE'2026-07-01' GROUP BY z.zone_type"
+    },
+    {
+      "id": "B09",
+      "question": "What is the late rate of delivered orders in each city?",
+      "ground_truth_sql": "SELECT z.city, round(count_if(f.status = 'delivered' AND f.minutes_past_promise > CASE WHEN f.delivery_class = 'instant' THEN 5 ELSE 20 END) / count_if(f.status = 'delivered'), 4) AS late_rate FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_zone z ON f.zone_sk = z.zone_sk GROUP BY z.city"
+    },
+    {
+      "id": "B10",
+      "question": "How many hop_pro customers placed at least one order?",
+      "ground_truth_sql": "SELECT count(DISTINCT c.customer_id) AS customers FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_customer c ON f.customer_sk = c.customer_sk WHERE c.tier = 'hop_pro'"
+    }
+  ]
+}

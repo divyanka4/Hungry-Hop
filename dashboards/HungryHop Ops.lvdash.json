@@ -1,0 +1,735 @@
+{
+  "datasets": [
+    {
+      "name": "orders_metrics",
+      "displayName": "Order Metrics",
+      "asset_name": "hop.analytics.mv_orders"
+    }
+  ],
+  "pages": [
+    {
+      "name": "overview",
+      "displayName": "Overview",
+      "layout": [
+        {
+          "widget": {
+            "name": "counter_orders",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "order_count",
+                      "expression": "MEASURE(`order_count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "frame": {
+                "title": "Total Orders",
+                "showTitle": true
+              },
+              "encodings": {
+                "value": {
+                  "fieldName": "order_count",
+                  "displayName": "Total Orders",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "compact",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 1
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "counter_deliver_rate",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "deliver_rate",
+                      "expression": "MEASURE(`deliver_rate`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "frame": {
+                "title": "Deliver Rate",
+                "showTitle": true
+              },
+              "encodings": {
+                "value": {
+                  "fieldName": "deliver_rate",
+                  "displayName": "Deliver Rate",
+                  "format": {
+                    "type": "number-percent",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 1
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 0,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "counter_late_rate",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "late_rate",
+                      "expression": "MEASURE(`late_rate`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "frame": {
+                "title": "Late Rate (delivered)",
+                "showTitle": true
+              },
+              "encodings": {
+                "value": {
+                  "fieldName": "late_rate",
+                  "displayName": "Late Rate",
+                  "format": {
+                    "type": "number-percent",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 1
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 0,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "counter_avg_minutes",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "avg_actual_minutes",
+                      "expression": "MEASURE(`avg_actual_minutes`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "frame": {
+                "title": "Avg Actual Minutes",
+                "showTitle": true
+              },
+              "encodings": {
+                "value": {
+                  "fieldName": "avg_actual_minutes",
+                  "displayName": "Avg Actual Minutes",
+                  "format": {
+                    "type": "number-plain",
+                    "abbreviation": "none",
+                    "decimalPlaces": {
+                      "type": "max",
+                      "places": 1
+                    }
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 9,
+            "y": 0,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "trend_orders",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "placed_date",
+                      "expression": "`placed_date`"
+                    },
+                    {
+                      "name": "order_count",
+                      "expression": "MEASURE(`order_count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "line",
+              "frame": {
+                "title": "Daily Orders",
+                "showTitle": true
+              },
+              "encodings": {
+                "x": {
+                  "fieldName": "placed_date",
+                  "displayName": "Placed Date",
+                  "scale": {
+                    "type": "temporal"
+                  }
+                },
+                "y": {
+                  "fieldName": "order_count",
+                  "displayName": "Orders",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 8,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "pie_class_split",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "delivery_class",
+                      "expression": "`delivery_class`"
+                    },
+                    {
+                      "name": "order_count",
+                      "expression": "MEASURE(`order_count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "pie",
+              "frame": {
+                "title": "Orders by Delivery Class",
+                "showTitle": true
+              },
+              "encodings": {
+                "angle": {
+                  "fieldName": "order_count",
+                  "displayName": "Orders",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                },
+                "color": {
+                  "fieldName": "delivery_class",
+                  "displayName": "Delivery Class",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 8,
+            "y": 2,
+            "width": 4,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "bar_rate_by_class",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "delivery_class",
+                      "expression": "`delivery_class`"
+                    },
+                    {
+                      "name": "deliver_rate",
+                      "expression": "MEASURE(`deliver_rate`)"
+                    },
+                    {
+                      "name": "late_rate",
+                      "expression": "MEASURE(`late_rate`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "frame": {
+                "title": "Deliver vs Late Rate by Delivery Class",
+                "showTitle": true
+              },
+              "mark": {
+                "layout": "group"
+              },
+              "encodings": {
+                "x": {
+                  "fieldName": "delivery_class",
+                  "displayName": "Delivery Class",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "fields": [
+                    {
+                      "fieldName": "deliver_rate",
+                      "displayName": "Deliver Rate"
+                    },
+                    {
+                      "fieldName": "late_rate",
+                      "displayName": "Late Rate"
+                    }
+                  ]
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 8,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "bar_orders_by_city",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "customer_city",
+                      "expression": "`customer_city`"
+                    },
+                    {
+                      "name": "order_count",
+                      "expression": "MEASURE(`order_count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "frame": {
+                "title": "Top Cities by Orders",
+                "showTitle": true
+              },
+              "encodings": {
+                "x": {
+                  "fieldName": "customer_city",
+                  "displayName": "City",
+                  "scale": {
+                    "type": "categorical",
+                    "categorySize": {
+                      "type": "number-of-categories",
+                      "number": 10
+                    },
+                    "sort": {
+                      "by": "measure-reversed",
+                      "measure": {
+                        "fieldName": "order_count"
+                      }
+                    }
+                  }
+                },
+                "y": {
+                  "fieldName": "order_count",
+                  "displayName": "Orders",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 8,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "bar_late_by_city",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "customer_city",
+                      "expression": "`customer_city`"
+                    },
+                    {
+                      "name": "late_rate",
+                      "expression": "MEASURE(`late_rate`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "frame": {
+                "title": "Late Rate by City",
+                "showTitle": true
+              },
+              "encodings": {
+                "x": {
+                  "fieldName": "customer_city",
+                  "displayName": "City",
+                  "scale": {
+                    "type": "categorical",
+                    "categorySize": {
+                      "type": "number-of-categories",
+                      "number": 10
+                    },
+                    "sort": {
+                      "by": "measure-reversed",
+                      "measure": {
+                        "fieldName": "late_rate"
+                      }
+                    }
+                  }
+                },
+                "y": {
+                  "fieldName": "late_rate",
+                  "displayName": "Late Rate",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 14,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "bar_orders_by_platform",
+            "queries": [
+              {
+                "name": "main",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "platform",
+                      "expression": "`platform`"
+                    },
+                    {
+                      "name": "order_count",
+                      "expression": "MEASURE(`order_count`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "frame": {
+                "title": "Orders by Platform",
+                "showTitle": true
+              },
+              "encodings": {
+                "x": {
+                  "fieldName": "platform",
+                  "displayName": "Platform",
+                  "scale": {
+                    "type": "categorical"
+                  }
+                },
+                "y": {
+                  "fieldName": "order_count",
+                  "displayName": "Orders",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "data": {
+                "queryName": "main"
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 14,
+            "width": 6,
+            "height": 6
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS",
+      "layoutVersion": "GRID_V1"
+    },
+    {
+      "name": "global_filters",
+      "displayName": "Global Filters",
+      "layout": [
+        {
+          "widget": {
+            "name": "date_range_filter",
+            "queries": [
+              {
+                "name": "date_domain",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "placed_date",
+                      "expression": "`placed_date`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "filter-date-range-picker",
+              "frame": {
+                "title": "Placed Date",
+                "showTitle": true
+              },
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "placed_date",
+                    "queryName": "date_domain",
+                    "displayName": "Placed Date"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "class_filter",
+            "queries": [
+              {
+                "name": "class_domain",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "delivery_class",
+                      "expression": "`delivery_class`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "filter-multi-select",
+              "frame": {
+                "title": "Delivery Class",
+                "showTitle": true
+              },
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "delivery_class",
+                    "queryName": "class_domain",
+                    "displayName": "Delivery Class"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 0,
+            "width": 3,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "city_filter",
+            "queries": [
+              {
+                "name": "city_domain",
+                "query": {
+                  "datasetName": "orders_metrics",
+                  "fields": [
+                    {
+                      "name": "customer_city",
+                      "expression": "`customer_city`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "filter-multi-select",
+              "frame": {
+                "title": "City",
+                "showTitle": true
+              },
+              "encodings": {
+                "fields": [
+                  {
+                    "fieldName": "customer_city",
+                    "queryName": "city_domain",
+                    "displayName": "City"
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 0,
+            "width": 3,
+            "height": 2
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_GLOBAL_FILTERS",
+      "layoutVersion": "GRID_V1"
+    }
+  ]
+}

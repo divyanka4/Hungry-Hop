@@ -1,0 +1,319 @@
+{
+ "space_id": "01f1e8ca04201cd2adc50cc366bbe8a0",
+ "space_title": "HungryHop Ops Assistant",
+ "warehouse_id": "dcce4de94be7e086",
+ "as_of_date": "2026-08-31",
+ "grading": "value-level: multiset of row values (alias-insensitive), exact numeric match",
+ "benchmarks": [
+  {
+   "id": "B01",
+   "question": "How many orders were placed in August 2026?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT count(*) AS orders\nFROM hop.analytics.fact_orders f\nJOIN hop.analytics.dim_date d ON f.placed_date_key = d.date_key\nWHERE d.month_start = DATE'2026-08-01'",
+   "genie_result_rows": [
+    {
+     "orders": 3154.0
+    }
+   ],
+   "ground_truth_sql": "SELECT count(*) AS orders FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_date d ON f.placed_date_key = d.date_key WHERE d.month_start = DATE'2026-08-01'",
+   "ground_truth_value": [
+    {
+     "orders": 3154
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B02",
+   "question": "What is the cancellation rate in each city?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT z.city, round(try_divide(count_if(f.status = 'cancelled'),count(*)), 4) AS cancellation_rate\nFROM hop.analytics.fact_orders f\nJOIN hop.analytics.dim_zone z ON f.zone_id = z.zone_id\nWHERE z.city IS NOT NULL\nGROUP BY z.city",
+   "genie_result_rows": [
+    {
+     "city": "Delhi",
+     "cancellation_rate": 0.0702
+    },
+    {
+     "city": "Hyderabad",
+     "cancellation_rate": 0.0671
+    },
+    {
+     "city": "Pune",
+     "cancellation_rate": 0.0699
+    },
+    {
+     "city": "Mumbai",
+     "cancellation_rate": 0.0685
+    },
+    {
+     "city": "Bengaluru",
+     "cancellation_rate": 0.0657
+    }
+   ],
+   "ground_truth_sql": "SELECT z.city, round(count_if(f.status = 'cancelled') / count(*), 4) AS cancellation_rate FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_zone z ON f.zone_sk = z.zone_sk GROUP BY z.city",
+   "ground_truth_value": [
+    {
+     "city": "Delhi",
+     "cancellation_rate": 0.0702
+    },
+    {
+     "city": "Hyderabad",
+     "cancellation_rate": 0.0671
+    },
+    {
+     "city": "Pune",
+     "cancellation_rate": 0.0699
+    },
+    {
+     "city": "Mumbai",
+     "cancellation_rate": 0.0685
+    },
+    {
+     "city": "Bengaluru",
+     "cancellation_rate": 0.0657
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B03",
+   "question": "What share of delivered Instant orders were late?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT round(try_divide(count_if(`minutes_past_promise` > 5),count(*)), 4) AS late_share\nFROM `hop`.`analytics`.`fact_orders`\nWHERE `status` = 'delivered' AND `delivery_class` = 'instant'",
+   "genie_result_rows": [
+    {
+     "late_share": 0.1487
+    }
+   ],
+   "ground_truth_sql": "SELECT round(count_if(f.minutes_past_promise > 5) / count(*), 4) AS late_share FROM hop.analytics.fact_orders f WHERE f.status = 'delivered' AND f.delivery_class = 'instant'",
+   "ground_truth_value": [
+    {
+     "late_share": 0.1487
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B04",
+   "question": "What share of delivered Standard orders were late?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT round(try_divide(count_if(minutes_past_promise > 20),count(*)), 4) AS late_share\nFROM hop.analytics.fact_orders\nWHERE status = 'delivered' AND delivery_class = 'standard'",
+   "genie_result_rows": [
+    {
+     "late_share": 0.0302
+    }
+   ],
+   "ground_truth_sql": "SELECT round(count_if(f.minutes_past_promise > 20) / count(*), 4) AS late_share FROM hop.analytics.fact_orders f WHERE f.status = 'delivered' AND f.delivery_class = 'standard'",
+   "ground_truth_value": [
+    {
+     "late_share": 0.0302
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B05",
+   "question": "What is the average delivery time in minutes of delivered orders for each delivery class?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT delivery_class, round(AVG(actual_minutes), 2) AS avg_delivery_time_minutes\nFROM hop.analytics.fact_orders\nWHERE status = 'delivered' AND actual_minutes IS NOT NULL AND delivery_class IS NOT NULL\nGROUP BY delivery_class",
+   "genie_result_rows": [
+    {
+     "delivery_class": "standard",
+     "avg_delivery_time_minutes": 37.14
+    },
+    {
+     "delivery_class": "instant",
+     "avg_delivery_time_minutes": 11.76
+    }
+   ],
+   "ground_truth_sql": "SELECT f.delivery_class, round(avg(f.actual_minutes), 2) AS avg_delivery_minutes FROM hop.analytics.fact_orders f WHERE f.status = 'delivered' GROUP BY f.delivery_class",
+   "ground_truth_value": [
+    {
+     "delivery_class": "standard",
+     "avg_delivery_minutes": 37.14
+    },
+    {
+     "delivery_class": "instant",
+     "avg_delivery_minutes": 11.76
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B06",
+   "question": "Which restaurant (restaurant_id) had the most delivered orders?",
+   "status": "COMPLETED",
+   "genie_sql": "WITH delivered_counts AS (\n  SELECT `restaurant_id`, COUNT(*) AS delivered_orders,\n         RANK() OVER (ORDER BY COUNT(*) DESC) AS rank\n  FROM `hop`.`analytics`.`fact_orders`\n  WHERE `status` = 'delivered' AND `restaurant_id` IS NOT NULL\n  GROUP BY `restaurant_id`\n)\nSELECT `restaurant_id`, delivered_orders\nFROM delivered_counts\nWHERE rank = 1",
+   "genie_result_rows": [
+    {
+     "restaurant_id": "RST-069",
+     "delivered_orders": 141.0
+    }
+   ],
+   "ground_truth_sql": "SELECT r.restaurant_id, count(*) AS delivered_orders FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_restaurant r ON f.restaurant_sk = r.restaurant_sk WHERE f.status = 'delivered' GROUP BY r.restaurant_id ORDER BY delivered_orders DESC, r.restaurant_id LIMIT 1",
+   "ground_truth_value": [
+    {
+     "restaurant_id": "RST-069",
+     "delivered_orders": 141
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B07",
+   "question": "What was the total value of delivered orders for each customer tier?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT c.customer_tier, ROUND(SUM(f.order_value), 2) AS total_delivered_value\nFROM hop.analytics.fact_orders f\nJOIN hop.analytics.dim_customer c ON f.customer_id = c.customer_id\nWHERE f.status = 'delivered' AND c.customer_tier IS NOT NULL AND f.order_value IS NOT NULL\nGROUP BY c.customer_tier",
+   "genie_result_rows": [
+    {
+     "customer_tier": "hop_plus",
+     "total_delivered_value": 3763505.61
+    },
+    {
+     "customer_tier": "free",
+     "total_delivered_value": 8477856.67
+    },
+    {
+     "customer_tier": "hop_pro",
+     "total_delivered_value": 1703667.83
+    }
+   ],
+   "ground_truth_sql": "SELECT c.tier, round(sum(f.order_value), 2) AS delivered_value FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_customer c ON f.customer_sk = c.customer_sk WHERE f.status = 'delivered' GROUP BY c.tier",
+   "ground_truth_value": [
+    {
+     "tier": "hop_plus",
+     "delivered_value": 3763505.61
+    },
+    {
+     "tier": "free",
+     "delivered_value": 8477856.67
+    },
+    {
+     "tier": "hop_pro",
+     "delivered_value": 1703667.83
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B08",
+   "question": "How many delivered orders went to each zone type in July 2026?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT z.zone_type, COUNT(*) AS delivered_orders\nFROM hop.analytics.fact_orders f\nJOIN hop.analytics.dim_zone z ON f.zone_id = z.zone_id\nWHERE f.status = 'delivered' AND f.placed_date BETWEEN DATE'2026-07-01' AND DATE'2026-07-31' AND z.zone_type IS NOT NULL\nGROUP BY z.zone_type\nORDER BY delivered_orders DESC",
+   "genie_result_rows": [
+    {
+     "zone_type": "suburb",
+     "delivered_orders": 1893.0
+    },
+    {
+     "zone_type": "core",
+     "delivered_orders": 1847.0
+    },
+    {
+     "zone_type": "outskirts",
+     "delivered_orders": 959.0
+    }
+   ],
+   "ground_truth_sql": "SELECT z.zone_type, count(*) AS delivered_orders FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_zone z ON f.zone_sk = z.zone_sk JOIN hop.analytics.dim_date d ON f.placed_date_key = d.date_key WHERE f.status = 'delivered' AND d.month_start = DATE'2026-07-01' GROUP BY z.zone_type",
+   "ground_truth_value": [
+    {
+     "zone_type": "outskirts",
+     "delivered_orders": 959
+    },
+    {
+     "zone_type": "suburb",
+     "delivered_orders": 1893
+    },
+    {
+     "zone_type": "core",
+     "delivered_orders": 1847
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B09",
+   "question": "What is the late rate of delivered orders in each city?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT z.city, round(\n  try_divide(count_if((f.delivery_class = 'instant' AND f.minutes_past_promise > 5) OR (f.delivery_class = 'standard' AND f.minutes_past_promise > 20)),count(*)), 4\n) AS late_rate\nFROM hop.analytics.fact_orders f\nJOIN hop.analytics.dim_zone z ON f.zone_id = z.zone_id\nWHERE f.status = 'delivered' AND z.city IS NOT NULL\nGROUP BY z.city",
+   "genie_result_rows": [
+    {
+     "city": "Delhi",
+     "late_rate": 0.0623
+    },
+    {
+     "city": "Hyderabad",
+     "late_rate": 0.062
+    },
+    {
+     "city": "Pune",
+     "late_rate": 0.0589
+    },
+    {
+     "city": "Mumbai",
+     "late_rate": 0.0704
+    },
+    {
+     "city": "Bengaluru",
+     "late_rate": 0.0637
+    }
+   ],
+   "ground_truth_sql": "SELECT z.city, round(count_if(f.status = 'delivered' AND f.minutes_past_promise > CASE WHEN f.delivery_class = 'instant' THEN 5 ELSE 20 END) / count_if(f.status = 'delivered'), 4) AS late_rate FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_zone z ON f.zone_sk = z.zone_sk GROUP BY z.city",
+   "ground_truth_value": [
+    {
+     "city": "Delhi",
+     "late_rate": 0.0623
+    },
+    {
+     "city": "Hyderabad",
+     "late_rate": 0.062
+    },
+    {
+     "city": "Pune",
+     "late_rate": 0.0589
+    },
+    {
+     "city": "Mumbai",
+     "late_rate": 0.0704
+    },
+    {
+     "city": "Bengaluru",
+     "late_rate": 0.0637
+    }
+   ],
+   "match": true
+  },
+  {
+   "id": "B10",
+   "question": "How many hop_pro customers placed at least one order?",
+   "status": "COMPLETED",
+   "genie_sql": "SELECT COUNT(DISTINCT dim_customer.customer_id) AS hop_pro_customers_with_orders\nFROM hop.analytics.fact_orders\nJOIN hop.analytics.dim_customer ON fact_orders.customer_id = dim_customer.customer_id\nWHERE dim_customer.customer_tier = 'hop_pro'",
+   "genie_result_rows": [
+    {
+     "hop_pro_customers_with_orders": 244.0
+    }
+   ],
+   "ground_truth_sql": "SELECT count(DISTINCT c.customer_id) AS customers FROM hop.analytics.fact_orders f JOIN hop.analytics.dim_customer c ON f.customer_sk = c.customer_sk WHERE c.tier = 'hop_pro'",
+   "ground_truth_value": [
+    {
+     "customers": 244
+    }
+   ],
+   "match": true
+  }
+ ],
+ "score": {
+  "matches": 10,
+  "total": 10
+ },
+ "official_ui_benchmark_run": {
+  "eval_run_id": "01f1e8cd681a10adb3dbe782bb7c2006",
+  "eval_run_status": "DONE",
+  "num_questions": 10,
+  "num_correct": 10,
+  "num_needs_review": 0,
+  "num_done": 10,
+  "run_by": "user from the Genie Agent UI Benchmarks tab",
+  "note": "Official native benchmark scorer compared Genie's SQL result sets against the ground-truth SQL result sets; all 10 questions assessed GOOD. Full per-question detail in /tmp/eval_run_final.json at run time; raw details retrievable via GET /api/2.0/genie/spaces/01f1e8ca04201cd2adc50cc366bbe8a0/eval-runs/01f1e8cd681a10adb3dbe782bb7c2006/results."
+ }
+}

@@ -1,0 +1,191 @@
+{
+  "as_of_date": "2026-08-31",
+  "questions": [
+    {
+      "id": "G01",
+      "question": "Which event starts the delivery promise clock?",
+      "expected_chunks": [
+        "02_Delivery_Promise_and_Measurement.md#when-the-promise-clock-starts"
+      ],
+      "expected_facts": [
+        "The clock starts at the accepted event, when the restaurant accepts the order"
+      ]
+    },
+    {
+      "id": "G02",
+      "question": "What status does an order get when it has a cancelled event?",
+      "expected_chunks": [
+        "01_Order_Lifecycle_and_Fault_Codes.md#order-status"
+      ],
+      "expected_facts": [
+        "The status is cancelled"
+      ]
+    },
+    {
+      "id": "G03",
+      "question": "Which issue codes put the fault on the restaurant?",
+      "expected_chunks": [
+        "01_Order_Lifecycle_and_Fault_Codes.md#who-is-at-fault"
+      ],
+      "expected_facts": [
+        "KITCHEN_DELAY and WRONG_ITEM"
+      ]
+    },
+    {
+      "id": "G04",
+      "question": "How many minutes past the promise can an Instant order be before it counts as late?",
+      "expected_chunks": [
+        "03_Late_Delivery_Compensation_Instant.md#when-an-order-counts-as-late"
+      ],
+      "expected_facts": [
+        "An Instant order is late when it is more than 5 minutes past its promise"
+      ]
+    },
+    {
+      "id": "G05",
+      "question": "What base coupon does a late Instant order earn?",
+      "expected_chunks": [
+        "03_Late_Delivery_Compensation_Instant.md#coupon-amount"
+      ],
+      "expected_facts": [
+        "Rs 40"
+      ]
+    },
+    {
+      "id": "G06",
+      "question": "How many minutes past the promise does a Standard order need to be to count as late?",
+      "expected_chunks": [
+        "04_Late_Delivery_Compensation_Standard.md#when-an-order-counts-as-late"
+      ],
+      "expected_facts": [
+        "A Standard order is late when it is more than 20 minutes past its promise"
+      ]
+    },
+    {
+      "id": "G07",
+      "question": "What base coupon does a late Standard order earn?",
+      "expected_chunks": [
+        "04_Late_Delivery_Compensation_Standard.md#coupon-amount"
+      ],
+      "expected_facts": [
+        "Rs 60"
+      ]
+    },
+    {
+      "id": "G08",
+      "question": "What coupon multiplier does a hop_pro customer get?",
+      "expected_chunks": [
+        "05_Membership_Tiers_and_Coupon_Scaling.md#coupon-multipliers"
+      ],
+      "expected_facts": [
+        "x2"
+      ]
+    },
+    {
+      "id": "G09",
+      "question": "Does the tier multiplier apply when the fault is unknown?",
+      "expected_chunks": [
+        "05_Membership_Tiers_and_Coupon_Scaling.md#when-the-multiplier-applies"
+      ],
+      "expected_facts": [
+        "No: with an unknown fault the customer gets the base coupon with no multiplier"
+      ]
+    },
+    {
+      "id": "G10",
+      "question": "How much is refunded when an order is cancelled and the customer is not at fault?",
+      "expected_chunks": [
+        "06_Cancellations_and_Refunds.md#refund-rule"
+      ],
+      "expected_facts": [
+        "100% of the order value"
+      ]
+    },
+    {
+      "id": "G11",
+      "question": "How long does a refund take to reach the original payment method?",
+      "expected_chunks": [
+        "06_Cancellations_and_Refunds.md#refund-timeline"
+      ],
+      "expected_facts": [
+        "5 to 7 working days"
+      ]
+    },
+    {
+      "id": "G12",
+      "question": "Can an order get both a refund and a coupon?",
+      "expected_chunks": [
+        "06_Cancellations_and_Refunds.md#refunds-and-coupons-together"
+      ],
+      "expected_facts": [
+        "No, a refund or a coupon, never both"
+      ]
+    },
+    {
+      "id": "G13",
+      "question": "Which promise times can a customer see at checkout?",
+      "expected_chunks": [
+        "02_Delivery_Promise_and_Measurement.md#delivery-classes"
+      ],
+      "expected_facts": [
+        "10 minutes, or 30, 35, 40 or 45 minutes"
+      ]
+    },
+    {
+      "id": "G14",
+      "question": "How is minutes past promise calculated?",
+      "expected_chunks": [
+        "02_Delivery_Promise_and_Measurement.md#minutes-past-promise"
+      ],
+      "expected_facts": [
+        "delivered time minus accepted time in minutes, minus promised_minutes"
+      ]
+    },
+    {
+      "id": "G15",
+      "question": "What can the operations team do during heavy rain or a heat alert?",
+      "expected_chunks": [
+        "07_Rider_Safety_and_Conduct.md#rain-and-heat"
+      ],
+      "expected_facts": [
+        "pause the 10 minute service in a zone"
+      ]
+    },
+    {
+      "id": "G16",
+      "question": "How quickly does a report about a rider reach the rider operations team?",
+      "expected_chunks": [
+        "07_Rider_Safety_and_Conduct.md#reporting-a-rider"
+      ],
+      "expected_facts": [
+        "within 1 hour"
+      ]
+    },
+    {
+      "id": "G17",
+      "question": "How are email and phone shown outside the support admin group?",
+      "expected_chunks": [
+        "08_Customer_Data_and_Privacy.md#masking"
+      ],
+      "expected_facts": [
+        "four stars followed by the last 4 characters"
+      ]
+    },
+    {
+      "id": "G18",
+      "question": "May support promise a refund before the facts are checked?",
+      "expected_chunks": [
+        "08_Customer_Data_and_Privacy.md#promises-to-customers"
+      ],
+      "expected_facts": [
+        "No, never promise a coupon or refund before the four facts are checked"
+      ]
+    },
+    {
+      "id": "G19",
+      "question": "For order ORD-50003, was the order late under the right SOP, and what compensation does the customer get? Use the order's structured facts and the SOP binder.",
+      "expected_chunks": "CROSS_SOURCE__structured_order_facts_plus_the_class_compensation_SOP_and_tier_SOP",
+      "note": "Multi-hop sentinel: needs the order's delivery class, times, tier and ticket issue code from the tables, joined with the matching compensation SOP and the tier SOP. Excluded from the hit-rate@5 / MRR denominator."
+    }
+  ]
+}

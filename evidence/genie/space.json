@@ -1,0 +1,109 @@
+{
+  "space_id": "01f1e8ca04201cd2adc50cc366bbe8a0",
+  "space_title": "HungryHop Ops Assistant",
+  "warehouse_id": "dcce4de94be7e086",
+  "description": "HungryHop delivery operations Q&A over the hop.analytics star schema (R8). Frozen data window 2026-06-01..2026-08-31.",
+  "etag": "5c3b251b179c14f6a134ce0897689250544f081ae011a2a6d637b9253aff671a",
+  "url": "/genie/rooms/01f1e8ca04201cd2adc50cc366bbe8a0",
+  "benchmarks_note": "All 10 benchmark questions (B01–B10 from hop.raw/landing/genie_benchmarks.json) are loaded into the space's Benchmarks tab, each with its ground-truth SQL as the SQL Answer. Serialized shape: benchmarks.questions[] = {id (uuid4 hex), question: [str], answer: [{format: 'SQL', content: [sql str]}]}. Verified via GET after PATCH: 10 questions present.",
+  "benchmark_questions": [
+    "How many orders were placed in August 2026?",
+    "What is the cancellation rate in each city?",
+    "What share of delivered Instant orders were late?",
+    "What share of delivered Standard orders were late?",
+    "What is the average delivery time in minutes of delivered orders for each delivery class?",
+    "Which restaurant (restaurant_id) had the most delivered orders?",
+    "What was the total value of delivered orders for each customer tier?",
+    "How many delivered orders went to each zone type in July 2026?",
+    "What is the late rate of delivered orders in each city?",
+    "How many hop_pro customers placed at least one order?"
+  ],
+  "serialized_space": {
+    "version": 2,
+    "config": {
+      "sample_questions": [
+        {
+          "id": "a1b2c3d4e5f60000000000000000a801",
+          "question": [
+            "How many orders were placed in August 2026?"
+          ]
+        },
+        {
+          "id": "b2c3d4e5f6a70000000000000000b802",
+          "question": [
+            "What share of delivered Instant orders were late?"
+          ]
+        }
+      ]
+    },
+    "data_sources": {
+      "tables": [
+        {
+          "identifier": "hop.analytics.dim_customer",
+          "description": [
+            "Customer dimension: customer_id, customer_city, tier ('free'/'hop_plus'/'hop_pro') and duplicate column `tier`, customer_sk. Join on customer_id."
+          ]
+        },
+        {
+          "identifier": "hop.analytics.dim_date",
+          "description": [
+            "Calendar dimension over the frozen window 2026-06-01..2026-08-31: `date`, date_key (INT yyyyMMdd), year, quarter, month, month_name, day_of_week, is_weekend, month_start (first day of month). NO dates outside this window exist."
+          ]
+        },
+        {
+          "identifier": "hop.analytics.dim_restaurant",
+          "description": [
+            "Restaurant dimension (current version per restaurant): restaurant_id, restaurant_name, cuisine, restaurant_zone_id, restaurant_rating, restaurant_is_active, restaurant_sk."
+          ]
+        },
+        {
+          "identifier": "hop.analytics.dim_zone",
+          "description": [
+            "Delivery-zone dimension: zone_id, city, zone_type ('core'/'suburb'/'outskirts'), zone_sk. Join on zone_id. City for delivery geography comes from here."
+          ]
+        },
+        {
+          "identifier": "hop.analytics.fact_orders",
+          "description": [
+            "One row per order (13,152 rows). Columns: order_id, customer_id, zone_id, restaurant_id, rider_id, status ('delivered'/'cancelled'), delivery_class ('instant'/'standard'), platform, placed_date (DATE), placed_ts, accepted_ts, picked_up_ts, delivered_ts, cancelled_ts, cancelled_by, promised_minutes, order_value, placed_to_accepted_minutes, prep_minutes, actual_minutes, minutes_past_promise, restaurant_rating_at_order, placed_date_key (INT yyyyMMdd), customer_sk, zone_sk, restaurant_sk."
+          ]
+        }
+      ]
+    },
+    "instructions": {
+      "text_instructions": [
+        {
+          "id": "0123456789abcdef0123456789abcdef",
+          "content": [
+            "You are the HungryHop operations analyst. The data is FROZEN as of 2026-08-31; orders span 2026-06-01..2026-08-31. NEVER use current_date(), now() or any clock function - resolve every time phrase inside the frozen window (e.g. 'August 2026' = placed_date between 2026-08-01 and 2026-08-31; 'July 2026' = 2026-07-01..2026-07-31).\n\nBusiness rules (always apply):\n- An order is LATE when status = 'delivered' AND minutes_past_promise exceeds the delivery-class threshold: instant > 5 minutes, standard > 20 minutes. Cancelled orders are NEVER late.\n- Average delivery time = AVG(actual_minutes) over delivered orders only.\n- Cancellation rate = cancelled orders / all orders. Late rate (or share of delivered that were late) = late delivered orders / delivered orders. Compute rates with conditional aggregation (count_if / CASE) over the same filtered base, never by averaging per-row flags.\n- 'In each city' means group by dim_zone.city joined on fact_orders.zone_id = dim_zone.zone_id (or zone_sk). Customer attributes (city, tier) come from dim_customer joined on customer_id (or customer_sk).\n- Join keys: fact_orders.customer_id = dim_customer.customer_id, fact_orders.zone_id = dim_zone.zone_id, fact_orders.restaurant_id = dim_restaurant.restaurant_id, fact_orders.placed_date_key = dim_date.date_key.\n- Rounding: rates to 4 decimals, money to 2, minutes to 2.\n- Answer with the number(s) first, then the SQL you used. If a question cannot be answered from these five tables, say so instead of guessing."
+          ]
+        }
+      ],
+      "example_question_sqls": [
+        {
+          "id": "fedcba9876543210fedcba9876543210",
+          "question": [
+            "What share of delivered Instant orders were late?"
+          ],
+          "sql": [
+            "SELECT round(count_if(minutes_past_promise > 5) / count(*), 4) AS late_share\n",
+            "FROM hop.analytics.fact_orders\n",
+            "WHERE status = 'delivered' AND delivery_class = 'instant'"
+          ]
+        },
+        {
+          "id": "fedcba9876543210fedcba9876543211",
+          "question": [
+            "How many orders were placed in August 2026?"
+          ],
+          "sql": [
+            "SELECT count(*) AS orders\n",
+            "FROM hop.analytics.fact_orders f\n",
+            "JOIN hop.analytics.dim_date d ON f.placed_date_key = d.date_key\n",
+            "WHERE d.month_start = DATE'2026-08-01'"
+          ]
+        }
+      ]
+    }
+  }
+}

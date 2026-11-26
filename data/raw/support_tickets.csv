@@ -1,0 +1,1201 @@
+ticket_id,order_id,customer_id,created_ts,channel,description,issue_code
+TKT-10001,ORD-40233,CUS-00826,2026-06-02T03:07:03,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10002,ORD-30523,CUS-01236,2026-06-02T06:03:08,phone,"Sorry, I missed the rider's calls because I was in a meeting. Otherwise the app works fine.",CUSTOMER_UNAVAILABLE
+TKT-10003,ORD-33889,CUS-00578,2026-06-02T06:08:41,email,"The rider got lost twice and ignored the navigation, order ORD-33889 came late.",RIDER_DELAY
+TKT-10004,ORD-33766,CUS-01632,2026-06-02T10:48:40,phone,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10005,ORD-35050,CUS-01532,2026-06-02T19:35:53,email,The app crashed while I was placing my order.,OTHER
+TKT-10006,ORD-37171,CUS-00969,2026-06-02T22:06:53,app_chat,"The rider reached Lotus Table on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10007,ORD-37273,CUS-01719,2026-06-03T05:41:08,app_chat,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10008,ORD-43626,CUS-00459,2026-06-03T07:14:17,email,I want to know why my payment is still pending. Otherwise the app works fine.,OTHER
+TKT-10009,ORD-33776,CUS-01386,2026-06-03T12:58:41,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10010,ORD-40843,CUS-01295,2026-06-03T13:17:43,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10011,ORD-32943,CUS-00564,2026-06-03T13:30:59,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10012,ORD-33485,CUS-01353,2026-06-03T18:10:13,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10013,ORD-30996,CUS-01557,2026-06-03T18:32:33,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10014,ORD-36544,CUS-00663,2026-06-03T18:48:47,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10015,ORD-32399,CUS-01871,2026-06-03T19:13:51,phone,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10016,ORD-34078,CUS-00242,2026-06-03T21:42:04,app_chat,"The rider reached Tandoor Bowl on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10017,ORD-41088,CUS-01879,2026-06-03T22:48:48,app_chat,Order ORD-41088 was delayed because the kitchen at Golden Table was not ready.,KITCHEN_DELAY
+TKT-10018,ORD-31824,CUS-00010,2026-06-04T02:50:08,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10019,ORD-36155,CUS-00146,2026-06-04T03:36:44,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10020,ORD-43400,CUS-00213,2026-06-04T11:18:49,email,"The rider reached Saffron Street on time but the food was not ready, so my order came late. Otherwise the app works fine.",KITCHEN_DELAY
+TKT-10021,ORD-42400,CUS-00280,2026-06-04T11:22:09,app_chat,"The rider got lost twice and ignored the navigation, order ORD-42400 came late.",RIDER_DELAY
+TKT-10022,ORD-42459,CUS-00891,2026-06-04T12:59:39,phone,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10023,ORD-40623,CUS-00997,2026-06-04T15:54:08,app_chat,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10024,ORD-38050,CUS-00411,2026-06-04T18:39:08,email,I cannot apply my coupon code at checkout.,OTHER
+TKT-10025,ORD-42968,CUS-01231,2026-06-04T19:04:14,app_chat,I received someone else's food with completely different items. The rider was polite though.,WRONG_ITEM
+TKT-10026,ORD-38871,CUS-00312,2026-06-04T20:01:39,app_chat,Food was still being cooked when the delivery partner arrived at Coastal Bowl.,KITCHEN_DELAY
+TKT-10027,ORD-44858,CUS-00049,2026-06-04T20:52:37,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10028,ORD-32448,CUS-01840,2026-06-04T21:29:42,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10029,ORD-30287,CUS-00244,2026-06-04T22:46:36,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10030,ORD-42222,CUS-01659,2026-06-05T01:49:24,phone,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10031,ORD-40501,CUS-00114,2026-06-05T02:39:37,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10032,ORD-39177,CUS-01077,2026-06-05T11:41:20,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10033,ORD-30768,CUS-00816,2026-06-05T13:13:27,email,Half the items in order ORD-30768 were missing.,WRONG_ITEM
+TKT-10034,ORD-37446,CUS-01892,2026-06-05T13:58:39,email,I want to know why my payment is still pending. I order from here every week.,OTHER
+TKT-10035,ORD-40482,CUS-01075,2026-06-05T14:00:11,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10036,ORD-38531,CUS-00961,2026-06-05T15:29:10,app_chat,Order ORD-38531 arrived with the soup spilled inside the bag. I order from here every week.,DAMAGED_IN_TRANSIT
+TKT-10037,ORD-34845,CUS-00031,2026-06-05T16:45:36,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10038,ORD-32503,CUS-00334,2026-06-05T19:19:28,email,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10039,ORD-34762,CUS-01380,2026-06-05T22:19:02,email,Food was still being cooked when the delivery partner arrived at Masala Corner.,KITCHEN_DELAY
+TKT-10040,ORD-31656,CUS-00115,2026-06-05T23:59:40,app_chat,Order ORD-31656 was delayed because the kitchen at Bombay Express was not ready.,KITCHEN_DELAY
+TKT-10041,ORD-37279,CUS-01745,2026-06-06T01:20:26,phone,I want to know why my payment is still pending. I order from here every week.,OTHER
+TKT-10042,ORD-37786,CUS-00584,2026-06-06T01:44:41,email,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10043,ORD-43734,CUS-00254,2026-06-06T02:17:08,email,The app crashed while I was placing my order.,OTHER
+TKT-10044,ORD-30130,CUS-00459,2026-06-06T04:03:17,app_chat,Wrong dish delivered. This is not what I ordered from Coastal Garden. I order from here every week.,WRONG_ITEM
+TKT-10045,ORD-42441,CUS-00717,2026-06-06T05:11:16,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10046,ORD-32559,CUS-00440,2026-06-06T06:22:41,email,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10047,ORD-32256,CUS-01950,2026-06-06T07:51:58,app_chat,"The rider reached Masala Kitchen on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10048,ORD-41295,CUS-00491,2026-06-06T10:50:47,phone,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10049,ORD-36790,CUS-01654,2026-06-06T11:44:03,email,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10050,ORD-34070,CUS-01087,2026-06-06T14:33:17,phone,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10051,ORD-40582,CUS-01985,2026-06-06T14:56:04,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10052,ORD-36596,CUS-01500,2026-06-06T15:52:23,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10053,ORD-38277,CUS-01293,2026-06-06T18:09:17,email,"The rider reached Urban Express on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10054,ORD-38729,CUS-00447,2026-06-06T18:41:51,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10055,ORD-34824,CUS-00980,2026-06-06T19:19:23,app_chat,Order ORD-34824 was delayed because the kitchen at Bombay Street was not ready.,KITCHEN_DELAY
+TKT-10056,ORD-37403,CUS-01237,2026-06-06T19:47:46,app_chat,The rider picked up the food quickly but then stopped for a long time on the way. The rider was polite though.,RIDER_DELAY
+TKT-10057,ORD-35559,CUS-01373,2026-06-07T04:36:10,app_chat,Royal Express took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10058,ORD-38726,CUS-00797,2026-06-07T04:41:06,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10059,ORD-39668,CUS-00391,2026-06-07T09:29:58,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10060,ORD-44521,CUS-01718,2026-06-07T11:48:11,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10061,ORD-43798,CUS-00223,2026-06-07T12:19:23,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10062,ORD-34071,CUS-00442,2026-06-07T13:42:04,app_chat,Wrong dish delivered. This is not what I ordered from Saffron Express.,WRONG_ITEM
+TKT-10063,ORD-35866,CUS-01454,2026-06-07T18:46:46,app_chat,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10064,ORD-41611,CUS-01167,2026-06-07T19:27:50,app_chat,I ordered a paneer roll but got a chicken roll from Spice Express.,WRONG_ITEM
+TKT-10065,ORD-35849,CUS-00395,2026-06-07T20:04:21,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10066,ORD-44831,CUS-00088,2026-06-07T22:40:17,app_chat,Saffron Kitchen took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10067,ORD-39294,CUS-00889,2026-06-08T01:39:12,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10068,ORD-40704,CUS-00970,2026-06-08T03:29:28,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10069,ORD-40932,CUS-00392,2026-06-08T04:08:16,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10070,ORD-40763,CUS-01524,2026-06-08T04:25:50,app_chat,My food left Masala Dhaba early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10071,ORD-38278,CUS-01735,2026-06-08T04:46:57,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10072,ORD-42929,CUS-00891,2026-06-08T06:19:04,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10073,ORD-36378,CUS-00303,2026-06-08T06:25:37,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10074,ORD-38359,CUS-01215,2026-06-08T07:50:02,app_chat,I ordered a paneer roll but got a chicken roll from Spice Table.,WRONG_ITEM
+TKT-10075,ORD-40255,CUS-01287,2026-06-08T08:32:30,app_chat,Coastal Garden took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10076,ORD-38031,CUS-00477,2026-06-08T11:20:29,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10077,ORD-34836,CUS-01466,2026-06-08T12:10:50,email,Wrong dish delivered. This is not what I ordered from Lotus Express.,WRONG_ITEM
+TKT-10078,ORD-33963,CUS-00855,2026-06-08T13:03:41,email,I ordered a paneer roll but got a chicken roll from Tandoor Bistro. Otherwise the app works fine.,WRONG_ITEM
+TKT-10079,ORD-41480,CUS-00431,2026-06-08T13:41:15,app_chat,My address pin was wrong and the rider went to another building. Otherwise the app works fine.,CUSTOMER_UNAVAILABLE
+TKT-10080,ORD-32427,CUS-00500,2026-06-08T14:18:04,app_chat,I entered my old address by mistake for order ORD-32427.,CUSTOMER_UNAVAILABLE
+TKT-10081,ORD-39799,CUS-01841,2026-06-08T15:21:25,phone,I was not at home when the rider came and my phone was switched off. Otherwise the app works fine.,CUSTOMER_UNAVAILABLE
+TKT-10082,ORD-43363,CUS-00584,2026-06-08T16:13:10,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10083,ORD-30758,CUS-00417,2026-06-08T18:30:25,app_chat,Food was still being cooked when the delivery partner arrived at Bombay Bowl.,KITCHEN_DELAY
+TKT-10084,ORD-40070,CUS-00828,2026-06-08T21:16:29,app_chat,Please change the email address on my account.,OTHER
+TKT-10085,ORD-36181,CUS-01700,2026-06-08T22:31:58,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10086,ORD-44241,CUS-01536,2026-06-09T04:49:30,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10087,ORD-37140,CUS-01484,2026-06-09T06:05:39,app_chat,Half the items in order ORD-37140 were missing.,WRONG_ITEM
+TKT-10088,ORD-43957,CUS-00098,2026-06-09T09:10:05,email,The delivery partner kept going in the wrong direction on the map and reached very late. The rider was polite though.,RIDER_DELAY
+TKT-10089,ORD-40442,CUS-01178,2026-06-09T13:35:34,app_chat,Order ORD-40442 was delayed because the kitchen at Tandoor Bistro was not ready.,KITCHEN_DELAY
+TKT-10090,ORD-42798,CUS-01778,2026-06-09T17:07:07,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10091,ORD-40696,CUS-00596,2026-06-09T18:43:42,app_chat,The app charged me twice for order ORD-40696.,OTHER
+TKT-10092,ORD-44013,CUS-00560,2026-06-09T22:13:02,app_chat,"One item was missing from order ORD-44013, the dessert never came.",WRONG_ITEM
+TKT-10093,ORD-44897,CUS-00777,2026-06-10T02:56:47,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10094,ORD-41037,CUS-00047,2026-06-10T04:49:06,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10095,ORD-44905,CUS-01227,2026-06-10T06:42:45,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10096,ORD-40746,CUS-01625,2026-06-10T10:23:03,app_chat,Order ORD-40746 was delayed because the kitchen at Bombay House was not ready.,KITCHEN_DELAY
+TKT-10097,ORD-36804,CUS-00555,2026-06-10T12:16:10,email,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10098,ORD-38974,CUS-01871,2026-06-10T12:21:04,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10099,ORD-32627,CUS-00695,2026-06-10T16:48:51,app_chat,The app charged me twice for order ORD-32627.,OTHER
+TKT-10100,ORD-32338,CUS-00453,2026-06-10T16:53:18,app_chat,"My order was incomplete, the drinks were not in the bag. I order from here every week.",WRONG_ITEM
+TKT-10101,ORD-33664,CUS-01964,2026-06-10T17:39:35,app_chat,"The rider got lost twice and ignored the navigation, order ORD-33664 came late.",RIDER_DELAY
+TKT-10102,ORD-37189,CUS-00875,2026-06-10T20:37:40,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10103,ORD-41084,CUS-01544,2026-06-10T20:47:51,email,Please change the email address on my account. The rider was polite though.,OTHER
+TKT-10104,ORD-33471,CUS-00674,2026-06-11T00:47:00,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10105,ORD-34784,CUS-01243,2026-06-11T02:59:51,email,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10106,ORD-44175,CUS-01927,2026-06-11T03:49:18,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10107,ORD-43717,CUS-00734,2026-06-11T04:26:59,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10108,ORD-32296,CUS-01916,2026-06-11T05:03:25,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10109,ORD-44494,CUS-00404,2026-06-11T06:28:51,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10110,ORD-31007,CUS-00706,2026-06-11T08:11:40,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10111,ORD-32788,CUS-00599,2026-06-11T10:37:09,email,Order ORD-32788 was delayed because the kitchen at Coastal Street was not ready.,KITCHEN_DELAY
+TKT-10112,ORD-42341,CUS-00747,2026-06-11T11:32:13,app_chat,Half the items in order ORD-42341 were missing.,WRONG_ITEM
+TKT-10113,ORD-42420,CUS-00115,2026-06-11T16:54:24,phone,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10114,ORD-33326,CUS-01608,2026-06-11T17:24:11,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10115,ORD-30973,CUS-01773,2026-06-11T18:24:15,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10116,ORD-31015,CUS-01385,2026-06-11T19:01:15,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10117,ORD-34432,CUS-01346,2026-06-11T23:03:11,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10118,ORD-35632,CUS-00124,2026-06-12T00:48:48,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10119,ORD-43778,CUS-01572,2026-06-12T04:21:25,app_chat,"The rider got lost twice and ignored the navigation, order ORD-43778 came late.",RIDER_DELAY
+TKT-10120,ORD-36330,CUS-00261,2026-06-12T05:07:10,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10121,ORD-35074,CUS-00819,2026-06-12T06:45:28,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10122,ORD-35405,CUS-00288,2026-06-12T11:28:04,email,Order ORD-35405 arrived with the soup spilled inside the bag. Otherwise the app works fine.,DAMAGED_IN_TRANSIT
+TKT-10123,ORD-39718,CUS-00748,2026-06-12T15:17:54,phone,The cake was smashed when the rider handed it over. Otherwise the app works fine.,DAMAGED_IN_TRANSIT
+TKT-10124,ORD-42463,CUS-00931,2026-06-12T18:26:23,app_chat,Order ORD-42463 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10125,ORD-43094,CUS-01738,2026-06-12T19:30:31,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10126,ORD-38617,CUS-00465,2026-06-12T19:58:03,app_chat,I was not at home when the rider came and my phone was switched off. Otherwise the app works fine.,CUSTOMER_UNAVAILABLE
+TKT-10127,ORD-35941,CUS-00789,2026-06-12T23:56:28,email,"The rider got lost twice and ignored the navigation, order ORD-35941 came late.",RIDER_DELAY
+TKT-10128,ORD-36232,CUS-01664,2026-06-12T23:57:03,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10129,ORD-36581,CUS-00245,2026-06-13T03:49:09,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10130,ORD-40528,CUS-01520,2026-06-13T04:43:26,email,The delivery guy took a long detour and the food arrived cold. Otherwise the app works fine.,RIDER_DELAY
+TKT-10131,ORD-36373,CUS-01798,2026-06-13T06:20:57,app_chat,Order ORD-36373 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10132,ORD-30300,CUS-01885,2026-06-13T11:40:40,app_chat,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10133,ORD-34050,CUS-00359,2026-06-13T11:49:47,app_chat,The app charged me twice for order ORD-34050.,OTHER
+TKT-10134,ORD-32264,CUS-01469,2026-06-13T13:30:42,phone,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10135,ORD-37643,CUS-01946,2026-06-13T14:59:07,phone,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10136,ORD-36258,CUS-00931,2026-06-13T20:26:34,app_chat,Please change the email address on my account.,OTHER
+TKT-10137,ORD-34184,CUS-01855,2026-06-13T20:30:40,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10138,ORD-35059,CUS-01781,2026-06-13T22:49:56,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10139,ORD-36607,CUS-01055,2026-06-13T23:49:29,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10140,ORD-35790,CUS-00467,2026-06-14T02:48:21,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10141,ORD-38367,CUS-01547,2026-06-14T09:27:33,app_chat,I want to know why my payment is still pending. I order from here every week.,OTHER
+TKT-10142,ORD-40138,CUS-01173,2026-06-14T10:28:52,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10143,ORD-34578,CUS-01573,2026-06-14T11:12:32,email,Order ORD-34578 was delayed because the kitchen at Green Bowl was not ready.,KITCHEN_DELAY
+TKT-10144,ORD-43473,CUS-00437,2026-06-14T11:21:31,phone,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10145,ORD-40686,CUS-00203,2026-06-14T17:09:04,app_chat,Half the items in order ORD-40686 were missing.,WRONG_ITEM
+TKT-10146,ORD-43462,CUS-01861,2026-06-14T18:58:14,app_chat,Tracking showed the rider standing still for 15 minutes after pickup. Otherwise the app works fine.,RIDER_DELAY
+TKT-10147,ORD-32436,CUS-01890,2026-06-14T23:22:30,phone,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10148,ORD-41613,CUS-01652,2026-06-15T03:43:31,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10149,ORD-40937,CUS-01347,2026-06-15T04:41:24,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10150,ORD-34524,CUS-01371,2026-06-15T07:26:19,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10151,ORD-31772,CUS-00560,2026-06-15T11:06:39,app_chat,The app charged me twice for order ORD-31772.,OTHER
+TKT-10152,ORD-30437,CUS-01742,2026-06-15T11:07:52,phone,Royal House took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10153,ORD-41665,CUS-01746,2026-06-15T11:33:29,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10154,ORD-40595,CUS-01409,2026-06-15T14:12:59,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10155,ORD-31720,CUS-01845,2026-06-15T17:46:39,app_chat,The app charged me twice for order ORD-31720.,OTHER
+TKT-10156,ORD-38112,CUS-00996,2026-06-15T18:19:32,email,My food left Urban House early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10157,ORD-44874,CUS-01368,2026-06-16T01:46:00,email,"The rider got lost twice and ignored the navigation, order ORD-44874 came late.",RIDER_DELAY
+TKT-10158,ORD-31414,CUS-00330,2026-06-16T04:57:22,app_chat,Golden Express took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10159,ORD-37200,CUS-00770,2026-06-16T09:14:37,phone,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10160,ORD-37162,CUS-01185,2026-06-16T09:37:48,email,The delivery guy took a long detour and the food arrived cold. Otherwise the app works fine.,RIDER_DELAY
+TKT-10161,ORD-38205,CUS-01652,2026-06-16T11:04:19,phone,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10162,ORD-39743,CUS-01368,2026-06-16T12:57:33,email,Order ORD-39743 was delayed because the kitchen at Tandoor Table was not ready.,KITCHEN_DELAY
+TKT-10163,ORD-43424,CUS-00094,2026-06-16T13:00:44,app_chat,I ordered a paneer roll but got a chicken roll from Golden Street.,WRONG_ITEM
+TKT-10164,ORD-42007,CUS-01334,2026-06-16T13:25:45,email,I received someone else's food with completely different items. I order from here every week.,WRONG_ITEM
+TKT-10165,ORD-39158,CUS-01104,2026-06-16T18:28:18,phone,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10166,ORD-40426,CUS-00057,2026-06-16T22:54:01,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10167,ORD-34936,CUS-00767,2026-06-17T00:25:15,phone,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10168,ORD-39997,CUS-01932,2026-06-17T01:08:21,email,Wrong dish delivered. This is not what I ordered from Masala Bistro. The rider was polite though.,WRONG_ITEM
+TKT-10169,ORD-33716,CUS-00094,2026-06-17T01:56:08,email,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10170,ORD-42938,CUS-00549,2026-06-17T05:12:27,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10171,ORD-44122,CUS-01658,2026-06-17T05:12:58,phone,"One item was missing from order ORD-44122, the dessert never came. The rider was polite though.",WRONG_ITEM
+TKT-10172,ORD-40386,CUS-01148,2026-06-17T05:26:05,phone,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10173,ORD-36105,CUS-01182,2026-06-17T07:52:30,app_chat,"The rider reached Saffron Table on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10174,ORD-37788,CUS-01433,2026-06-17T13:24:26,email,Half the items in order ORD-37788 were missing. Otherwise the app works fine.,WRONG_ITEM
+TKT-10175,ORD-40260,CUS-01309,2026-06-17T14:49:47,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10176,ORD-32276,CUS-01159,2026-06-17T18:39:29,email,Urban Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10177,ORD-37467,CUS-00309,2026-06-17T20:47:34,email,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10178,ORD-44827,CUS-00314,2026-06-17T23:48:48,app_chat,Order ORD-44827 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10179,ORD-33901,CUS-00451,2026-06-18T02:40:39,app_chat,Wrong dish delivered. This is not what I ordered from Golden Express.,WRONG_ITEM
+TKT-10180,ORD-43187,CUS-01102,2026-06-18T02:49:30,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10181,ORD-44841,CUS-01926,2026-06-18T09:10:22,email,The app crashed while I was placing my order.,OTHER
+TKT-10182,ORD-43960,CUS-02000,2026-06-18T09:10:38,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10183,ORD-42989,CUS-01064,2026-06-18T13:07:28,phone,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10184,ORD-35785,CUS-00252,2026-06-18T13:46:45,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10185,ORD-37992,CUS-01066,2026-06-18T14:59:50,phone,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10186,ORD-37391,CUS-01531,2026-06-18T15:20:13,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10187,ORD-41333,CUS-01262,2026-06-18T17:32:35,phone,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10188,ORD-38697,CUS-00163,2026-06-18T19:01:57,email,Food was still being cooked when the delivery partner arrived at Masala Express. I order from here every week.,KITCHEN_DELAY
+TKT-10189,ORD-39804,CUS-00487,2026-06-18T22:05:42,email,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10190,ORD-30805,CUS-00339,2026-06-19T03:15:37,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10191,ORD-35213,CUS-01718,2026-06-19T03:38:40,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10192,ORD-43715,CUS-01773,2026-06-19T03:54:51,email,"Sorry, I missed the rider's calls because I was in a meeting. Otherwise the app works fine.",CUSTOMER_UNAVAILABLE
+TKT-10193,ORD-33591,CUS-00633,2026-06-19T11:19:13,app_chat,Order ORD-33591 was delayed because the kitchen at Royal Express was not ready.,KITCHEN_DELAY
+TKT-10194,ORD-34513,CUS-01012,2026-06-19T11:52:13,email,"One item was missing from order ORD-34513, the dessert never came.",WRONG_ITEM
+TKT-10195,ORD-43961,CUS-00409,2026-06-19T13:16:49,email,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10196,ORD-35713,CUS-01718,2026-06-19T14:50:50,app_chat,The app charged me twice for order ORD-35713.,OTHER
+TKT-10197,ORD-34750,CUS-01772,2026-06-19T15:00:33,app_chat,I cannot apply my coupon code at checkout. I order from here every week.,OTHER
+TKT-10198,ORD-35121,CUS-01750,2026-06-19T15:54:01,email,Food was still being cooked when the delivery partner arrived at Coastal Corner.,KITCHEN_DELAY
+TKT-10199,ORD-38600,CUS-00715,2026-06-19T16:04:42,app_chat,Order ORD-38600 was delayed because the kitchen at Saffron Express was not ready.,KITCHEN_DELAY
+TKT-10200,ORD-41727,CUS-00833,2026-06-19T17:59:47,phone,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10201,ORD-43768,CUS-00244,2026-06-19T18:45:08,phone,I cannot apply my coupon code at checkout.,OTHER
+TKT-10202,ORD-40774,CUS-00531,2026-06-19T22:14:05,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10203,ORD-34889,CUS-00097,2026-06-20T10:11:17,email,I ordered a paneer roll but got a chicken roll from Urban Express.,WRONG_ITEM
+TKT-10204,ORD-40641,CUS-00082,2026-06-20T11:51:15,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10205,ORD-39056,CUS-01849,2026-06-20T14:21:34,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10206,ORD-40694,CUS-00360,2026-06-20T21:17:14,app_chat,My food left Masala Bistro early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10207,ORD-41958,CUS-01564,2026-06-21T00:02:05,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10208,ORD-30982,CUS-00501,2026-06-21T00:53:10,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10209,ORD-35604,CUS-00600,2026-06-21T01:59:03,app_chat,I ordered a paneer roll but got a chicken roll from Spice Garden.,WRONG_ITEM
+TKT-10210,ORD-38916,CUS-00477,2026-06-21T02:15:43,email,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10211,ORD-32342,CUS-01383,2026-06-21T05:23:14,phone,I ordered a paneer roll but got a chicken roll from Masala Garden.,WRONG_ITEM
+TKT-10212,ORD-39787,CUS-00787,2026-06-21T05:48:01,app_chat,Half the items in order ORD-39787 were missing.,WRONG_ITEM
+TKT-10213,ORD-39650,CUS-00270,2026-06-21T05:56:38,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10214,ORD-34383,CUS-01163,2026-06-21T07:17:41,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10215,ORD-34670,CUS-00488,2026-06-21T07:38:27,app_chat,"The rider got lost twice and ignored the navigation, order ORD-34670 came late.",RIDER_DELAY
+TKT-10216,ORD-38310,CUS-00446,2026-06-21T13:13:48,email,Half the items in order ORD-38310 were missing.,WRONG_ITEM
+TKT-10217,ORD-38058,CUS-00535,2026-06-21T17:48:48,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10218,ORD-41425,CUS-01433,2026-06-21T18:27:58,email,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10219,ORD-30163,CUS-00729,2026-06-21T19:40:31,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10220,ORD-38040,CUS-00131,2026-06-21T21:17:03,app_chat,Order ORD-38040 was delayed because the kitchen at Spice Kitchen was not ready.,KITCHEN_DELAY
+TKT-10221,ORD-38935,CUS-01120,2026-06-21T21:30:32,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10222,ORD-44712,CUS-00715,2026-06-22T01:56:18,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10223,ORD-32727,CUS-00173,2026-06-22T02:37:54,app_chat,Saffron Table took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10224,ORD-39035,CUS-01524,2026-06-22T05:33:33,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10225,ORD-33683,CUS-00439,2026-06-22T08:07:47,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10226,ORD-30683,CUS-00612,2026-06-22T14:06:10,phone,"The rider got lost twice and ignored the navigation, order ORD-30683 came late.",RIDER_DELAY
+TKT-10227,ORD-42181,CUS-01109,2026-06-22T14:49:19,phone,The app crashed while I was placing my order.,OTHER
+TKT-10228,ORD-33526,CUS-00143,2026-06-22T16:06:48,app_chat,"One item was missing from order ORD-33526, the dessert never came.",WRONG_ITEM
+TKT-10229,ORD-32206,CUS-01484,2026-06-22T18:26:02,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10230,ORD-41648,CUS-00422,2026-06-23T01:50:46,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10231,ORD-32854,CUS-01754,2026-06-23T04:25:27,app_chat,The app charged me twice for order ORD-32854.,OTHER
+TKT-10232,ORD-32608,CUS-00537,2026-06-23T06:47:05,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10233,ORD-39549,CUS-01527,2026-06-23T10:34:48,app_chat,Tracking showed the rider standing still for 15 minutes after pickup. The rider was polite though.,RIDER_DELAY
+TKT-10234,ORD-43759,CUS-01081,2026-06-23T13:01:32,app_chat,The rider told me the restaurant had not even started cooking when he got there. I order from here every week.,KITCHEN_DELAY
+TKT-10235,ORD-41871,CUS-00609,2026-06-23T14:20:52,phone,"One item was missing from order ORD-41871, the dessert never came.",WRONG_ITEM
+TKT-10236,ORD-43829,CUS-00167,2026-06-23T23:23:45,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10237,ORD-43076,CUS-01812,2026-06-23T23:30:33,app_chat,Food was still being cooked when the delivery partner arrived at Green Table.,KITCHEN_DELAY
+TKT-10238,ORD-36263,CUS-00337,2026-06-24T03:23:38,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10239,ORD-35733,CUS-01007,2026-06-24T06:03:29,email,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10240,ORD-30650,CUS-00193,2026-06-24T08:44:25,app_chat,My food left Urban Corner early but the rider took ages to reach me. The rider was polite though.,RIDER_DELAY
+TKT-10241,ORD-33172,CUS-00922,2026-06-24T10:10:41,app_chat,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10242,ORD-37795,CUS-00190,2026-06-24T12:07:17,app_chat,My food left Spice Corner early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10243,ORD-44807,CUS-01628,2026-06-24T12:25:09,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10244,ORD-34663,CUS-01661,2026-06-24T14:15:12,email,I entered my old address by mistake for order ORD-34663.,CUSTOMER_UNAVAILABLE
+TKT-10245,ORD-41370,CUS-01960,2026-06-24T15:55:33,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10246,ORD-39992,CUS-00366,2026-06-24T16:33:11,email,I ordered a paneer roll but got a chicken roll from Bombay Bistro.,WRONG_ITEM
+TKT-10247,ORD-34685,CUS-00355,2026-06-24T19:11:13,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10248,ORD-38036,CUS-01454,2026-06-24T20:35:14,app_chat,Half the items in order ORD-38036 were missing.,WRONG_ITEM
+TKT-10249,ORD-33957,CUS-01201,2026-06-24T22:04:50,email,Saffron Table took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10250,ORD-34607,CUS-00364,2026-06-24T22:05:32,email,My food left Bombay Corner early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10251,ORD-44561,CUS-01518,2026-06-24T23:49:22,email,Order ORD-44561 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10252,ORD-30557,CUS-00749,2026-06-25T01:42:49,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10253,ORD-42643,CUS-01475,2026-06-25T04:12:43,phone,"My order was incomplete, the drinks were not in the bag. Otherwise the app works fine.",WRONG_ITEM
+TKT-10254,ORD-33148,CUS-01525,2026-06-25T06:39:34,app_chat,Please change the email address on my account.,OTHER
+TKT-10255,ORD-30581,CUS-00296,2026-06-25T10:52:30,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10256,ORD-43999,CUS-01072,2026-06-25T12:12:04,app_chat,Wrong dish delivered. This is not what I ordered from Golden Garden.,WRONG_ITEM
+TKT-10257,ORD-33308,CUS-01084,2026-06-25T12:17:14,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10258,ORD-44400,CUS-00910,2026-06-25T13:11:25,phone,The app charged me twice for order ORD-44400.,OTHER
+TKT-10259,ORD-44893,CUS-01387,2026-06-25T17:45:03,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10260,ORD-34144,CUS-00778,2026-06-25T18:48:45,app_chat,Spice Street took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10261,ORD-41011,CUS-01868,2026-06-25T18:56:37,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10262,ORD-30699,CUS-01333,2026-06-25T20:10:37,app_chat,"The rider reached Bombay Corner on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10263,ORD-36905,CUS-01304,2026-06-26T05:54:03,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10264,ORD-39367,CUS-01134,2026-06-26T09:30:51,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10265,ORD-31789,CUS-01328,2026-06-26T11:18:53,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10266,ORD-42348,CUS-00399,2026-06-26T11:35:08,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10267,ORD-32014,CUS-01276,2026-06-26T15:08:30,phone,I want to know why my payment is still pending.,OTHER
+TKT-10268,ORD-36500,CUS-00638,2026-06-26T17:08:31,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10269,ORD-39521,CUS-00092,2026-06-26T18:18:07,email,"The rider got lost twice and ignored the navigation, order ORD-39521 came late.",RIDER_DELAY
+TKT-10270,ORD-31302,CUS-00326,2026-06-26T19:11:52,app_chat,I ordered a paneer roll but got a chicken roll from Masala Table.,WRONG_ITEM
+TKT-10271,ORD-42808,CUS-01504,2026-06-26T21:31:04,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10272,ORD-44067,CUS-00426,2026-06-26T22:46:28,phone,My food left Coastal Garden early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10273,ORD-34089,CUS-00221,2026-06-27T00:14:47,email,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10274,ORD-34870,CUS-01355,2026-06-27T03:10:09,email,The app crashed while I was placing my order.,OTHER
+TKT-10275,ORD-35558,CUS-00784,2026-06-27T04:57:38,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10276,ORD-39586,CUS-00921,2026-06-27T05:30:55,app_chat,My food left Spice Kitchen early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10277,ORD-40335,CUS-01441,2026-06-27T09:01:38,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10278,ORD-41365,CUS-01897,2026-06-27T11:03:08,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10279,ORD-31340,CUS-01913,2026-06-27T11:19:40,app_chat,Food was still being cooked when the delivery partner arrived at Monsoon Kitchen.,KITCHEN_DELAY
+TKT-10280,ORD-37822,CUS-01137,2026-06-27T14:30:51,app_chat,Please change the email address on my account.,OTHER
+TKT-10281,ORD-37849,CUS-00522,2026-06-27T15:24:21,app_chat,Half the items in order ORD-37849 were missing.,WRONG_ITEM
+TKT-10282,ORD-40436,CUS-00381,2026-06-27T17:26:24,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10283,ORD-43107,CUS-00146,2026-06-27T17:51:19,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10284,ORD-33770,CUS-00250,2026-06-28T02:08:55,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10285,ORD-35534,CUS-00260,2026-06-28T03:26:37,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10286,ORD-34133,CUS-01233,2026-06-28T04:26:00,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10287,ORD-38845,CUS-00175,2026-06-28T06:41:33,app_chat,The delivery guy took a long detour and the food arrived cold. I order from here every week.,RIDER_DELAY
+TKT-10288,ORD-39645,CUS-01502,2026-06-28T07:25:29,app_chat,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10289,ORD-36552,CUS-00877,2026-06-28T11:10:45,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10290,ORD-35472,CUS-00185,2026-06-28T12:19:57,phone,Order ORD-35472 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10291,ORD-39529,CUS-00856,2026-06-28T12:23:50,app_chat,Please change the email address on my account. Otherwise the app works fine.,OTHER
+TKT-10292,ORD-40119,CUS-01820,2026-06-28T13:50:08,app_chat,Food was still being cooked when the delivery partner arrived at Bombay House. I order from here every week.,KITCHEN_DELAY
+TKT-10293,ORD-43749,CUS-01462,2026-06-28T17:12:11,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10294,ORD-42487,CUS-01634,2026-06-28T17:37:57,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10295,ORD-37528,CUS-01741,2026-06-28T20:31:11,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10296,ORD-36948,CUS-01744,2026-06-28T20:58:35,email,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10297,ORD-33939,CUS-01269,2026-06-28T21:54:44,email,"The rider got lost twice and ignored the navigation, order ORD-33939 came late. The rider was polite though.",RIDER_DELAY
+TKT-10298,ORD-44335,CUS-00880,2026-06-29T01:18:28,phone,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10299,ORD-32827,CUS-00311,2026-06-29T02:14:11,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10300,ORD-30498,CUS-01798,2026-06-29T02:28:29,email,The app charged me twice for order ORD-30498. The rider was polite though.,OTHER
+TKT-10301,ORD-41156,CUS-00595,2026-06-29T02:33:57,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10302,ORD-43312,CUS-01104,2026-06-29T04:34:09,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10303,ORD-43814,CUS-00440,2026-06-29T04:44:01,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10304,ORD-41149,CUS-00752,2026-06-29T04:47:10,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10305,ORD-44149,CUS-01152,2026-06-29T04:58:01,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10306,ORD-38991,CUS-01505,2026-06-29T05:47:16,email,Order ORD-38991 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10307,ORD-33937,CUS-01893,2026-06-29T08:38:40,email,"The rider reached Golden Street on time but the food was not ready, so my order came late. Otherwise the app works fine.",KITCHEN_DELAY
+TKT-10308,ORD-44888,CUS-01739,2026-06-29T08:59:18,app_chat,Please change the email address on my account.,OTHER
+TKT-10309,ORD-38951,CUS-01431,2026-06-29T10:42:23,email,Please change the email address on my account.,OTHER
+TKT-10310,ORD-31096,CUS-01613,2026-06-29T11:01:29,app_chat,"The rider reached Monsoon Kitchen on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10311,ORD-36611,CUS-01504,2026-06-29T11:40:05,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10312,ORD-42325,CUS-00015,2026-06-29T17:46:39,phone,The app crashed while I was placing my order. Otherwise the app works fine.,OTHER
+TKT-10313,ORD-36213,CUS-00747,2026-06-29T19:43:57,email,My food left Masala Table early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10314,ORD-40507,CUS-00929,2026-06-29T20:53:56,app_chat,Wrong dish delivered. This is not what I ordered from Saffron Street.,WRONG_ITEM
+TKT-10315,ORD-42852,CUS-01381,2026-06-29T21:48:54,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10316,ORD-40064,CUS-01580,2026-06-29T22:06:27,phone,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10317,ORD-36379,CUS-00660,2026-06-29T22:09:11,phone,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10318,ORD-43685,CUS-01895,2026-06-29T23:12:22,app_chat,My food left Tandoor House early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10319,ORD-34359,CUS-00273,2026-06-30T02:10:55,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10320,ORD-37310,CUS-01357,2026-06-30T05:55:45,phone,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10321,ORD-44364,CUS-01112,2026-06-30T08:04:47,email,I entered my old address by mistake for order ORD-44364.,CUSTOMER_UNAVAILABLE
+TKT-10322,ORD-35399,CUS-01242,2026-06-30T10:46:09,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10323,ORD-31026,CUS-00828,2026-06-30T11:27:46,email,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10324,ORD-32236,CUS-00544,2026-06-30T18:11:47,phone,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10325,ORD-34451,CUS-01983,2026-06-30T19:37:38,email,How do I delete my saved card from the app?,OTHER
+TKT-10326,ORD-40008,CUS-01614,2026-06-30T20:22:32,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10327,ORD-36826,CUS-00510,2026-06-30T21:24:30,email,The app charged me twice for order ORD-36826.,OTHER
+TKT-10328,ORD-40359,CUS-01965,2026-06-30T21:33:16,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10329,ORD-43670,CUS-00890,2026-06-30T22:32:48,phone,My food left Golden Bistro early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10330,ORD-40045,CUS-01626,2026-07-01T00:13:03,email,Masala Street took forever to prepare the food. The rider said he waited at the kitchen for a long time. Otherwise the app works fine.,KITCHEN_DELAY
+TKT-10331,ORD-38905,CUS-01872,2026-07-01T01:26:35,app_chat,I entered my old address by mistake for order ORD-38905.,CUSTOMER_UNAVAILABLE
+TKT-10332,ORD-33983,CUS-00422,2026-07-01T02:07:17,email,My address pin was wrong and the rider went to another building. I order from here every week.,CUSTOMER_UNAVAILABLE
+TKT-10333,ORD-38335,CUS-01835,2026-07-01T03:30:38,phone,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10334,ORD-30746,CUS-00538,2026-07-01T03:33:55,email,My food left Lotus Corner early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10335,ORD-34932,CUS-01015,2026-07-01T04:46:30,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10336,ORD-44761,CUS-01063,2026-07-01T04:51:03,email,Half the items in order ORD-44761 were missing.,WRONG_ITEM
+TKT-10337,ORD-31305,CUS-01290,2026-07-01T11:51:03,email,I received someone else's food with completely different items. The rider was polite though.,WRONG_ITEM
+TKT-10338,ORD-35872,CUS-00905,2026-07-01T12:39:28,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10339,ORD-33691,CUS-00498,2026-07-01T12:48:09,phone,Food was still being cooked when the delivery partner arrived at Royal Dhaba. The rider was polite though.,KITCHEN_DELAY
+TKT-10340,ORD-43625,CUS-01540,2026-07-01T13:58:01,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10341,ORD-43774,CUS-01827,2026-07-01T20:59:58,app_chat,The restaurant was very slow to pack my order while the rider waited outside. I order from here every week.,KITCHEN_DELAY
+TKT-10342,ORD-34223,CUS-00850,2026-07-01T23:39:52,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10343,ORD-34919,CUS-00802,2026-07-01T23:40:17,app_chat,I was not at home when the rider came and my phone was switched off. I order from here every week.,CUSTOMER_UNAVAILABLE
+TKT-10344,ORD-37230,CUS-01408,2026-07-02T01:19:57,phone,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10345,ORD-44728,CUS-01838,2026-07-02T08:56:55,email,"The rider reached Monsoon Dhaba on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10346,ORD-35685,CUS-00163,2026-07-02T13:48:38,app_chat,My food left Spice Garden early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10347,ORD-30504,CUS-00427,2026-07-02T14:16:38,app_chat,"Sorry, I missed the rider's calls because I was in a meeting. I order from here every week.",CUSTOMER_UNAVAILABLE
+TKT-10348,ORD-35196,CUS-01058,2026-07-02T14:23:51,email,"The rider got lost twice and ignored the navigation, order ORD-35196 came late.",RIDER_DELAY
+TKT-10349,ORD-42095,CUS-00632,2026-07-02T15:03:01,email,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10350,ORD-33791,CUS-01558,2026-07-02T16:44:04,email,I was not at home when the rider came and my phone was switched off. Otherwise the app works fine.,CUSTOMER_UNAVAILABLE
+TKT-10351,ORD-35654,CUS-01903,2026-07-02T18:36:15,app_chat,The rider picked up the food quickly but then stopped for a long time on the way. The rider was polite though.,RIDER_DELAY
+TKT-10352,ORD-33034,CUS-01718,2026-07-03T03:31:28,app_chat,My food left Coastal Express early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10353,ORD-44546,CUS-01335,2026-07-03T04:38:31,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10354,ORD-43066,CUS-00876,2026-07-03T07:06:02,phone,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10355,ORD-35748,CUS-00548,2026-07-03T10:14:14,phone,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10356,ORD-34459,CUS-01086,2026-07-03T10:31:41,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10357,ORD-42800,CUS-01054,2026-07-03T13:00:15,email,Order ORD-42800 was delayed because the kitchen at Urban Bistro was not ready.,KITCHEN_DELAY
+TKT-10358,ORD-31837,CUS-00196,2026-07-03T13:55:05,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10359,ORD-31857,CUS-01139,2026-07-03T15:11:29,email,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10360,ORD-41074,CUS-01975,2026-07-03T15:33:02,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10361,ORD-35655,CUS-00780,2026-07-03T19:28:44,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10362,ORD-40017,CUS-00303,2026-07-04T06:45:15,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10363,ORD-38483,CUS-01210,2026-07-04T07:24:55,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10364,ORD-41856,CUS-01301,2026-07-04T10:07:13,app_chat,Food was still being cooked when the delivery partner arrived at Saffron Corner.,KITCHEN_DELAY
+TKT-10365,ORD-37865,CUS-00954,2026-07-04T11:50:44,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10366,ORD-41822,CUS-00741,2026-07-04T16:25:28,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10367,ORD-41459,CUS-00216,2026-07-04T16:40:00,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10368,ORD-40053,CUS-00419,2026-07-04T17:42:19,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10369,ORD-33944,CUS-00066,2026-07-04T20:44:30,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10370,ORD-37461,CUS-00033,2026-07-04T21:27:20,app_chat,Food was still being cooked when the delivery partner arrived at Green Bowl.,KITCHEN_DELAY
+TKT-10371,ORD-31226,CUS-01719,2026-07-05T00:35:37,phone,Order ORD-31226 was delayed because the kitchen at Spice Express was not ready.,KITCHEN_DELAY
+TKT-10372,ORD-31730,CUS-01448,2026-07-05T00:38:10,app_chat,Please change the email address on my account.,OTHER
+TKT-10373,ORD-44504,CUS-00972,2026-07-05T02:27:45,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10374,ORD-43799,CUS-01464,2026-07-05T06:08:55,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10375,ORD-37219,CUS-00069,2026-07-05T06:59:32,app_chat,My food left Urban Bistro early but the rider took ages to reach me. I order from here every week.,RIDER_DELAY
+TKT-10376,ORD-40703,CUS-01273,2026-07-05T14:45:38,app_chat,I entered my old address by mistake for order ORD-40703. The rider was polite though.,CUSTOMER_UNAVAILABLE
+TKT-10377,ORD-41878,CUS-00494,2026-07-05T15:43:11,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10378,ORD-37066,CUS-01224,2026-07-06T02:09:43,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10379,ORD-42973,CUS-00663,2026-07-06T02:42:40,app_chat,The app charged me twice for order ORD-42973.,OTHER
+TKT-10380,ORD-32880,CUS-00476,2026-07-06T07:12:59,email,Order ORD-32880 arrived with the soup spilled inside the bag. Otherwise the app works fine.,DAMAGED_IN_TRANSIT
+TKT-10381,ORD-33441,CUS-00398,2026-07-06T07:33:00,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10382,ORD-36983,CUS-00974,2026-07-06T08:51:09,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10383,ORD-42300,CUS-00352,2026-07-06T08:56:37,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10384,ORD-34557,CUS-01668,2026-07-06T09:50:50,app_chat,Please change the email address on my account. Otherwise the app works fine.,OTHER
+TKT-10385,ORD-42558,CUS-00141,2026-07-06T12:07:02,app_chat,Half the items in order ORD-42558 were missing. I order from here every week.,WRONG_ITEM
+TKT-10386,ORD-37657,CUS-01926,2026-07-06T12:41:56,app_chat,"One item was missing from order ORD-37657, the dessert never came.",WRONG_ITEM
+TKT-10387,ORD-31406,CUS-01722,2026-07-06T13:45:18,email,My food left Saffron Kitchen early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10388,ORD-30839,CUS-01508,2026-07-06T17:28:58,app_chat,Order ORD-30839 was delayed because the kitchen at Bombay Garden was not ready.,KITCHEN_DELAY
+TKT-10389,ORD-37370,CUS-01146,2026-07-06T18:22:40,email,"The rider reached Saffron Kitchen on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10390,ORD-43131,CUS-01190,2026-07-06T19:34:56,phone,I was not at home when the rider came and my phone was switched off. I order from here every week.,CUSTOMER_UNAVAILABLE
+TKT-10391,ORD-43900,CUS-01871,2026-07-06T20:44:41,app_chat,The app charged me twice for order ORD-43900. The rider was polite though.,OTHER
+TKT-10392,ORD-35416,CUS-01754,2026-07-06T23:06:41,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10393,ORD-34080,CUS-00334,2026-07-06T23:08:46,app_chat,I entered my old address by mistake for order ORD-34080.,CUSTOMER_UNAVAILABLE
+TKT-10394,ORD-36005,CUS-00582,2026-07-06T23:26:54,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10395,ORD-39978,CUS-00408,2026-07-06T23:44:01,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10396,ORD-40697,CUS-01862,2026-07-07T00:12:46,email,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10397,ORD-43150,CUS-01477,2026-07-07T03:08:56,email,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10398,ORD-34771,CUS-01748,2026-07-07T06:31:56,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10399,ORD-30186,CUS-00060,2026-07-07T10:38:50,phone,"The rider got lost twice and ignored the navigation, order ORD-30186 came late.",RIDER_DELAY
+TKT-10400,ORD-39244,CUS-00266,2026-07-07T15:13:53,app_chat,The app crashed while I was placing my order. Otherwise the app works fine.,OTHER
+TKT-10401,ORD-42759,CUS-01768,2026-07-07T15:17:15,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10402,ORD-30148,CUS-01566,2026-07-07T18:56:38,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10403,ORD-39708,CUS-01670,2026-07-07T20:36:42,email,"The rider got lost twice and ignored the navigation, order ORD-39708 came late.",RIDER_DELAY
+TKT-10404,ORD-39052,CUS-01742,2026-07-07T20:41:09,email,Royal Table took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10405,ORD-44219,CUS-01503,2026-07-07T20:52:21,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10406,ORD-38706,CUS-00647,2026-07-08T10:24:52,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10407,ORD-42352,CUS-00936,2026-07-08T12:40:37,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10408,ORD-41521,CUS-00375,2026-07-08T13:06:21,phone,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10409,ORD-33875,CUS-01602,2026-07-08T14:18:27,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10410,ORD-38757,CUS-01055,2026-07-08T18:43:00,app_chat,"The rider got lost twice and ignored the navigation, order ORD-38757 came late.",RIDER_DELAY
+TKT-10411,ORD-36610,CUS-00325,2026-07-08T20:20:08,phone,My food left Golden Street early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10412,ORD-38903,CUS-00772,2026-07-08T21:22:10,app_chat,I ordered a paneer roll but got a chicken roll from Saffron Kitchen.,WRONG_ITEM
+TKT-10413,ORD-43271,CUS-01097,2026-07-09T00:47:23,app_chat,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10414,ORD-42046,CUS-00881,2026-07-09T05:38:27,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10415,ORD-44163,CUS-01181,2026-07-09T08:43:34,app_chat,The app crashed while I was placing my order. Otherwise the app works fine.,OTHER
+TKT-10416,ORD-39297,CUS-01693,2026-07-09T09:32:28,app_chat,I ordered a paneer roll but got a chicken roll from Urban House.,WRONG_ITEM
+TKT-10417,ORD-42213,CUS-01037,2026-07-09T10:06:12,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10418,ORD-37133,CUS-01131,2026-07-09T11:55:00,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10419,ORD-36401,CUS-00566,2026-07-09T12:33:43,app_chat,Half the items in order ORD-36401 were missing.,WRONG_ITEM
+TKT-10420,ORD-30775,CUS-00804,2026-07-09T22:02:30,phone,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10421,ORD-34887,CUS-01368,2026-07-09T22:34:51,app_chat,The rider picked up the food quickly but then stopped for a long time on the way. The rider was polite though.,RIDER_DELAY
+TKT-10422,ORD-39233,CUS-00839,2026-07-10T05:05:52,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10423,ORD-40931,CUS-01943,2026-07-10T08:07:23,email,Food was still being cooked when the delivery partner arrived at Monsoon House.,KITCHEN_DELAY
+TKT-10424,ORD-32942,CUS-01280,2026-07-10T08:38:13,email,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10425,ORD-36599,CUS-01720,2026-07-10T08:59:05,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10426,ORD-34892,CUS-01448,2026-07-10T10:13:11,email,"The rider got lost twice and ignored the navigation, order ORD-34892 came late.",RIDER_DELAY
+TKT-10427,ORD-38865,CUS-00220,2026-07-10T10:35:58,app_chat,Food was still being cooked when the delivery partner arrived at Monsoon Table.,KITCHEN_DELAY
+TKT-10428,ORD-40297,CUS-00884,2026-07-10T13:37:44,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10429,ORD-38291,CUS-00842,2026-07-10T19:33:47,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10430,ORD-44775,CUS-01639,2026-07-10T23:40:13,phone,"The rider got lost twice and ignored the navigation, order ORD-44775 came late.",RIDER_DELAY
+TKT-10431,ORD-38032,CUS-00337,2026-07-10T23:57:32,email,I cannot apply my coupon code at checkout.,OTHER
+TKT-10432,ORD-32069,CUS-00403,2026-07-11T01:28:39,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10433,ORD-34126,CUS-00696,2026-07-11T02:35:43,email,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10434,ORD-39124,CUS-01936,2026-07-11T05:54:02,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10435,ORD-36286,CUS-00201,2026-07-11T08:06:48,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10436,ORD-38848,CUS-00667,2026-07-11T09:11:23,email,Half the items in order ORD-38848 were missing.,WRONG_ITEM
+TKT-10437,ORD-39629,CUS-00345,2026-07-11T11:45:58,email,Order ORD-39629 was delayed because the kitchen at Tandoor Corner was not ready. The rider was polite though.,KITCHEN_DELAY
+TKT-10438,ORD-42593,CUS-00326,2026-07-11T12:24:10,app_chat,Order ORD-42593 was delayed because the kitchen at Bombay Table was not ready.,KITCHEN_DELAY
+TKT-10439,ORD-40288,CUS-01355,2026-07-11T15:00:23,app_chat,Half the items in order ORD-40288 were missing.,WRONG_ITEM
+TKT-10440,ORD-37890,CUS-01093,2026-07-11T16:13:19,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10441,ORD-39213,CUS-01151,2026-07-11T17:58:45,app_chat,Order ORD-39213 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10442,ORD-43952,CUS-00534,2026-07-11T18:57:25,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10443,ORD-31332,CUS-00943,2026-07-11T20:43:38,app_chat,"The rider reached Monsoon Table on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10444,ORD-33750,CUS-01162,2026-07-12T00:07:22,app_chat,Please change the email address on my account.,OTHER
+TKT-10445,ORD-32362,CUS-01689,2026-07-12T01:14:09,email,"The rider got lost twice and ignored the navigation, order ORD-32362 came late. The rider was polite though.",RIDER_DELAY
+TKT-10446,ORD-35598,CUS-01258,2026-07-12T01:55:29,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10447,ORD-32115,CUS-00790,2026-07-12T03:04:02,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10448,ORD-36781,CUS-00252,2026-07-12T03:31:35,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10449,ORD-39767,CUS-01999,2026-07-12T05:31:59,phone,The app charged me twice for order ORD-39767.,OTHER
+TKT-10450,ORD-38022,CUS-01164,2026-07-12T08:50:39,phone,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10451,ORD-30943,CUS-00812,2026-07-12T11:16:45,app_chat,"One item was missing from order ORD-30943, the dessert never came.",WRONG_ITEM
+TKT-10452,ORD-31957,CUS-01780,2026-07-12T12:23:09,email,I cannot apply my coupon code at checkout.,OTHER
+TKT-10453,ORD-35895,CUS-01425,2026-07-12T14:10:04,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10454,ORD-43010,CUS-00736,2026-07-12T17:13:39,phone,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10455,ORD-41112,CUS-01153,2026-07-12T19:13:30,email,"The rider got lost twice and ignored the navigation, order ORD-41112 came late.",RIDER_DELAY
+TKT-10456,ORD-33339,CUS-01613,2026-07-12T20:47:28,app_chat,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10457,ORD-30152,CUS-01164,2026-07-13T04:47:03,app_chat,Wrong dish delivered. This is not what I ordered from Golden Express.,WRONG_ITEM
+TKT-10458,ORD-34953,CUS-01786,2026-07-13T04:57:26,phone,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10459,ORD-32120,CUS-00139,2026-07-13T08:11:16,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10460,ORD-34412,CUS-01734,2026-07-13T09:46:12,email,How do I delete my saved card from the app? Otherwise the app works fine.,OTHER
+TKT-10461,ORD-43432,CUS-00464,2026-07-13T11:12:27,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10462,ORD-44908,CUS-01004,2026-07-13T12:25:02,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10463,ORD-32658,CUS-00858,2026-07-13T15:31:34,app_chat,Food was still being cooked when the delivery partner arrived at Green Garden.,KITCHEN_DELAY
+TKT-10464,ORD-44634,CUS-01909,2026-07-13T15:53:33,app_chat,Food was still being cooked when the delivery partner arrived at Saffron Kitchen.,KITCHEN_DELAY
+TKT-10465,ORD-35584,CUS-01447,2026-07-13T18:36:33,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10466,ORD-42688,CUS-00312,2026-07-13T18:49:18,email,Please change the email address on my account.,OTHER
+TKT-10467,ORD-33484,CUS-00027,2026-07-13T19:13:23,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10468,ORD-41951,CUS-01900,2026-07-14T01:47:48,email,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10469,ORD-30728,CUS-00257,2026-07-14T03:15:45,phone,Order ORD-30728 was delayed because the kitchen at Masala Dhaba was not ready.,KITCHEN_DELAY
+TKT-10470,ORD-42709,CUS-00178,2026-07-14T04:09:53,app_chat,"The rider reached Green Garden on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10471,ORD-43379,CUS-00092,2026-07-14T04:16:15,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10472,ORD-35060,CUS-00838,2026-07-14T06:24:14,phone,"The rider got lost twice and ignored the navigation, order ORD-35060 came late.",RIDER_DELAY
+TKT-10473,ORD-36112,CUS-01059,2026-07-14T12:17:55,app_chat,Please change the email address on my account.,OTHER
+TKT-10474,ORD-41819,CUS-00674,2026-07-14T14:59:35,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10475,ORD-34712,CUS-00607,2026-07-14T19:38:19,phone,I ordered a paneer roll but got a chicken roll from Royal Kitchen.,WRONG_ITEM
+TKT-10476,ORD-35878,CUS-00982,2026-07-14T19:57:59,email,My food left Green Dhaba early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10477,ORD-43870,CUS-01697,2026-07-14T20:27:42,email,"The rider reached Urban Kitchen on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10478,ORD-41454,CUS-00125,2026-07-14T20:45:31,phone,I want to know why my payment is still pending.,OTHER
+TKT-10479,ORD-39537,CUS-01452,2026-07-14T23:03:43,app_chat,Food was still being cooked when the delivery partner arrived at Saffron Kitchen.,KITCHEN_DELAY
+TKT-10480,ORD-34157,CUS-00826,2026-07-15T01:20:55,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10481,ORD-44239,CUS-01173,2026-07-15T01:26:50,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10482,ORD-31117,CUS-01171,2026-07-15T02:01:49,phone,Golden House took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10483,ORD-41639,CUS-00360,2026-07-15T03:21:32,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10484,ORD-39381,CUS-01812,2026-07-15T05:10:02,email,The app charged me twice for order ORD-39381.,OTHER
+TKT-10485,ORD-37525,CUS-00461,2026-07-15T05:23:20,app_chat,I ordered a paneer roll but got a chicken roll from Bombay Table.,WRONG_ITEM
+TKT-10486,ORD-35232,CUS-00501,2026-07-15T05:58:17,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10487,ORD-43803,CUS-00901,2026-07-15T08:19:29,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10488,ORD-32284,CUS-00083,2026-07-15T08:59:03,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10489,ORD-41439,CUS-00527,2026-07-15T14:39:37,app_chat,Order ORD-41439 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10490,ORD-41511,CUS-01122,2026-07-15T15:30:28,app_chat,"The rider reached Coastal Corner on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10491,ORD-39356,CUS-00341,2026-07-15T18:47:34,email,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10492,ORD-34654,CUS-00180,2026-07-15T19:07:59,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10493,ORD-36409,CUS-01061,2026-07-15T20:19:13,email,"One item was missing from order ORD-36409, the dessert never came.",WRONG_ITEM
+TKT-10494,ORD-39442,CUS-01790,2026-07-15T20:26:41,app_chat,Wrong dish delivered. This is not what I ordered from Green Express.,WRONG_ITEM
+TKT-10495,ORD-41595,CUS-00598,2026-07-15T21:50:19,email,"One item was missing from order ORD-41595, the dessert never came.",WRONG_ITEM
+TKT-10496,ORD-32195,CUS-01556,2026-07-15T22:15:22,email,My food left Lotus Street early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10497,ORD-42044,CUS-01468,2026-07-16T00:56:54,phone,I cannot apply my coupon code at checkout.,OTHER
+TKT-10498,ORD-41596,CUS-01450,2026-07-16T03:54:25,app_chat,Monsoon Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10499,ORD-37701,CUS-01375,2026-07-16T07:34:02,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10500,ORD-42682,CUS-01407,2026-07-16T07:48:00,app_chat,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10501,ORD-36631,CUS-00788,2026-07-16T09:49:53,app_chat,"One item was missing from order ORD-36631, the dessert never came. I order from here every week.",WRONG_ITEM
+TKT-10502,ORD-31033,CUS-00265,2026-07-16T11:31:13,app_chat,The rider picked up the food quickly but then stopped for a long time on the way. I order from here every week.,RIDER_DELAY
+TKT-10503,ORD-32588,CUS-01823,2026-07-16T13:08:38,phone,Bombay House took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10504,ORD-34940,CUS-00579,2026-07-16T16:42:24,app_chat,Wrong dish delivered. This is not what I ordered from Spice Corner.,WRONG_ITEM
+TKT-10505,ORD-41286,CUS-01466,2026-07-16T19:10:54,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10506,ORD-32400,CUS-00152,2026-07-16T23:07:50,app_chat,"One item was missing from order ORD-32400, the dessert never came.",WRONG_ITEM
+TKT-10507,ORD-44805,CUS-00641,2026-07-17T01:07:46,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10508,ORD-37510,CUS-01843,2026-07-17T01:31:36,app_chat,"The rider got lost twice and ignored the navigation, order ORD-37510 came late.",RIDER_DELAY
+TKT-10509,ORD-34200,CUS-00140,2026-07-17T02:19:13,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10510,ORD-39658,CUS-01832,2026-07-17T04:47:47,email,"One item was missing from order ORD-39658, the dessert never came.",WRONG_ITEM
+TKT-10511,ORD-43234,CUS-00253,2026-07-17T04:53:42,app_chat,Wrong dish delivered. This is not what I ordered from Saffron Garden.,WRONG_ITEM
+TKT-10512,ORD-36547,CUS-00791,2026-07-17T09:44:26,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10513,ORD-38027,CUS-00687,2026-07-17T09:56:23,app_chat,Tandoor House took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10514,ORD-33169,CUS-01156,2026-07-17T19:01:53,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10515,ORD-43323,CUS-00735,2026-07-17T19:26:36,email,Please change the email address on my account.,OTHER
+TKT-10516,ORD-44723,CUS-00961,2026-07-17T22:39:14,phone,"The rider reached Saffron Bistro on time but the food was not ready, so my order came late. I order from here every week.",KITCHEN_DELAY
+TKT-10517,ORD-39364,CUS-00581,2026-07-18T04:41:05,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10518,ORD-30216,CUS-00104,2026-07-18T11:12:24,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10519,ORD-31649,CUS-00071,2026-07-18T20:52:26,app_chat,Food was still being cooked when the delivery partner arrived at Coastal Express.,KITCHEN_DELAY
+TKT-10520,ORD-34915,CUS-01264,2026-07-18T22:51:46,app_chat,Wrong dish delivered. This is not what I ordered from Royal Dhaba.,WRONG_ITEM
+TKT-10521,ORD-35054,CUS-00580,2026-07-19T03:28:05,app_chat,"The rider reached Saffron Table on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10522,ORD-33251,CUS-01429,2026-07-19T03:51:22,app_chat,I entered my old address by mistake for order ORD-33251.,CUSTOMER_UNAVAILABLE
+TKT-10523,ORD-43406,CUS-01563,2026-07-19T04:09:04,app_chat,I entered my old address by mistake for order ORD-43406. Otherwise the app works fine.,CUSTOMER_UNAVAILABLE
+TKT-10524,ORD-31310,CUS-01583,2026-07-19T04:10:46,app_chat,My food left Monsoon Dhaba early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10525,ORD-44624,CUS-01280,2026-07-19T04:44:00,email,My food left Royal Bowl early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10526,ORD-30782,CUS-00739,2026-07-19T09:26:58,app_chat,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10527,ORD-43036,CUS-01356,2026-07-19T10:14:57,phone,Please change the email address on my account.,OTHER
+TKT-10528,ORD-37735,CUS-01647,2026-07-19T13:30:49,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10529,ORD-30516,CUS-00104,2026-07-19T13:52:23,app_chat,My food left Golden Corner early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10530,ORD-42492,CUS-00094,2026-07-19T16:15:23,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10531,ORD-40246,CUS-01336,2026-07-19T19:34:26,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10532,ORD-30363,CUS-01630,2026-07-19T20:34:02,email,Wrong dish delivered. This is not what I ordered from Spice Corner.,WRONG_ITEM
+TKT-10533,ORD-41432,CUS-01762,2026-07-19T20:54:51,app_chat,"The rider reached Royal Express on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10534,ORD-32154,CUS-01866,2026-07-20T07:23:25,email,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10535,ORD-40344,CUS-01527,2026-07-20T09:48:00,app_chat,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10536,ORD-41237,CUS-01822,2026-07-20T13:54:36,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10537,ORD-41526,CUS-01895,2026-07-20T16:59:32,phone,"The rider got lost twice and ignored the navigation, order ORD-41526 came late.",RIDER_DELAY
+TKT-10538,ORD-44631,CUS-01948,2026-07-20T18:48:11,phone,Food was still being cooked when the delivery partner arrived at Urban Kitchen.,KITCHEN_DELAY
+TKT-10539,ORD-42366,CUS-00998,2026-07-20T20:16:20,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10540,ORD-38339,CUS-01659,2026-07-20T22:40:36,app_chat,"The rider got lost twice and ignored the navigation, order ORD-38339 came late.",RIDER_DELAY
+TKT-10541,ORD-35627,CUS-01945,2026-07-20T23:37:33,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10542,ORD-41110,CUS-00138,2026-07-21T01:42:59,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10543,ORD-30576,CUS-00028,2026-07-21T02:48:06,email,Order ORD-30576 was delayed because the kitchen at Saffron Dhaba was not ready.,KITCHEN_DELAY
+TKT-10544,ORD-31951,CUS-00990,2026-07-21T04:29:52,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10545,ORD-40849,CUS-00229,2026-07-21T07:42:45,app_chat,Order ORD-40849 was delayed because the kitchen at Spice Dhaba was not ready.,KITCHEN_DELAY
+TKT-10546,ORD-30271,CUS-00687,2026-07-21T10:01:08,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10547,ORD-38401,CUS-01568,2026-07-21T10:01:34,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10548,ORD-42163,CUS-01658,2026-07-21T16:16:41,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10549,ORD-43447,CUS-01299,2026-07-21T16:53:35,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10550,ORD-32253,CUS-00626,2026-07-21T19:02:38,app_chat,Half the items in order ORD-32253 were missing.,WRONG_ITEM
+TKT-10551,ORD-33941,CUS-00801,2026-07-21T23:08:21,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10552,ORD-43856,CUS-01082,2026-07-22T01:24:19,app_chat,Order ORD-43856 was delayed because the kitchen at Monsoon Corner was not ready.,KITCHEN_DELAY
+TKT-10553,ORD-31681,CUS-00531,2026-07-22T02:16:41,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10554,ORD-33898,CUS-00579,2026-07-22T02:24:07,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10555,ORD-41476,CUS-01119,2026-07-22T09:25:26,phone,"The rider reached Golden Garden on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10556,ORD-44904,CUS-01854,2026-07-22T11:26:22,app_chat,Wrong dish delivered. This is not what I ordered from Saffron Garden.,WRONG_ITEM
+TKT-10557,ORD-42744,CUS-00807,2026-07-22T12:51:28,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10558,ORD-37261,CUS-01204,2026-07-22T14:50:32,app_chat,Wrong dish delivered. This is not what I ordered from Lotus Corner. The rider was polite though.,WRONG_ITEM
+TKT-10559,ORD-30974,CUS-00086,2026-07-22T20:54:44,app_chat,My pizza box was crushed and the pizza was ruined. The rider was polite though.,DAMAGED_IN_TRANSIT
+TKT-10560,ORD-33079,CUS-00672,2026-07-23T00:32:31,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10561,ORD-42949,CUS-00009,2026-07-23T01:37:59,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10562,ORD-37799,CUS-00611,2026-07-23T03:02:41,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10563,ORD-31961,CUS-01791,2026-07-23T04:56:52,app_chat,"The rider got lost twice and ignored the navigation, order ORD-31961 came late.",RIDER_DELAY
+TKT-10564,ORD-39524,CUS-01020,2026-07-23T05:53:48,app_chat,I ordered a paneer roll but got a chicken roll from Tandoor Garden.,WRONG_ITEM
+TKT-10565,ORD-44648,CUS-01718,2026-07-23T08:23:13,phone,I want to know why my payment is still pending.,OTHER
+TKT-10566,ORD-34677,CUS-01780,2026-07-23T09:16:22,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10567,ORD-42035,CUS-00034,2026-07-23T11:53:44,app_chat,The app charged me twice for order ORD-42035.,OTHER
+TKT-10568,ORD-44903,CUS-01525,2026-07-23T12:13:04,app_chat,Food was still being cooked when the delivery partner arrived at Masala Bowl.,KITCHEN_DELAY
+TKT-10569,ORD-31843,CUS-01369,2026-07-23T16:01:32,email,The drinks leaked and soaked the food during delivery. Otherwise the app works fine.,DAMAGED_IN_TRANSIT
+TKT-10570,ORD-44157,CUS-01507,2026-07-23T18:31:56,app_chat,Please change the email address on my account.,OTHER
+TKT-10571,ORD-32017,CUS-00597,2026-07-23T20:18:41,phone,Order ORD-32017 was delayed because the kitchen at Masala Table was not ready. Otherwise the app works fine.,KITCHEN_DELAY
+TKT-10572,ORD-39069,CUS-01696,2026-07-23T20:39:39,app_chat,I entered my old address by mistake for order ORD-39069.,CUSTOMER_UNAVAILABLE
+TKT-10573,ORD-32723,CUS-00530,2026-07-23T21:57:12,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10574,ORD-40106,CUS-01975,2026-07-23T23:18:52,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10575,ORD-32217,CUS-01459,2026-07-24T05:06:04,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10576,ORD-33031,CUS-00739,2026-07-24T06:24:09,email,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10577,ORD-34068,CUS-01617,2026-07-24T10:30:02,app_chat,Please change the email address on my account.,OTHER
+TKT-10578,ORD-30353,CUS-01888,2026-07-24T10:43:14,app_chat,Order ORD-30353 arrived with the soup spilled inside the bag. The rider was polite though.,DAMAGED_IN_TRANSIT
+TKT-10579,ORD-33583,CUS-00852,2026-07-24T16:43:50,app_chat,"The rider reached Lotus Street on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10580,ORD-32046,CUS-00674,2026-07-24T17:50:10,app_chat,Tracking showed the rider standing still for 15 minutes after pickup. Otherwise the app works fine.,RIDER_DELAY
+TKT-10581,ORD-40402,CUS-00966,2026-07-24T19:18:27,app_chat,Food was still being cooked when the delivery partner arrived at Masala Garden.,KITCHEN_DELAY
+TKT-10582,ORD-35916,CUS-00019,2026-07-24T22:29:38,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10583,ORD-30236,CUS-01884,2026-07-25T02:10:23,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10584,ORD-43278,CUS-00401,2026-07-25T03:08:00,phone,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10585,ORD-35865,CUS-01452,2026-07-25T03:49:57,app_chat,I ordered a paneer roll but got a chicken roll from Coastal Garden.,WRONG_ITEM
+TKT-10586,ORD-36227,CUS-00219,2026-07-25T09:16:47,app_chat,I received someone else's food with completely different items. Otherwise the app works fine.,WRONG_ITEM
+TKT-10587,ORD-34483,CUS-01903,2026-07-25T09:55:18,app_chat,I entered my old address by mistake for order ORD-34483.,CUSTOMER_UNAVAILABLE
+TKT-10588,ORD-41465,CUS-01608,2026-07-25T13:57:08,app_chat,My food left Spice Kitchen early but the rider took ages to reach me. The rider was polite though.,RIDER_DELAY
+TKT-10589,ORD-32261,CUS-01965,2026-07-25T14:09:28,phone,Order ORD-32261 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10590,ORD-40871,CUS-01724,2026-07-25T14:30:42,app_chat,Half the items in order ORD-40871 were missing.,WRONG_ITEM
+TKT-10591,ORD-44685,CUS-01755,2026-07-25T20:52:24,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10592,ORD-36597,CUS-00379,2026-07-26T00:19:43,email,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10593,ORD-34717,CUS-00451,2026-07-26T00:41:19,app_chat,I entered my old address by mistake for order ORD-34717.,CUSTOMER_UNAVAILABLE
+TKT-10594,ORD-38344,CUS-00404,2026-07-26T00:51:24,app_chat,My food left Green Dhaba early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10595,ORD-43072,CUS-01553,2026-07-26T01:19:34,app_chat,Order ORD-43072 was delayed because the kitchen at Masala Corner was not ready.,KITCHEN_DELAY
+TKT-10596,ORD-35381,CUS-01039,2026-07-26T01:45:39,email,"The rider got lost twice and ignored the navigation, order ORD-35381 came late.",RIDER_DELAY
+TKT-10597,ORD-33261,CUS-00028,2026-07-26T02:17:18,app_chat,The cake was smashed when the rider handed it over. Otherwise the app works fine.,DAMAGED_IN_TRANSIT
+TKT-10598,ORD-43373,CUS-00482,2026-07-26T03:39:00,app_chat,"One item was missing from order ORD-43373, the dessert never came.",WRONG_ITEM
+TKT-10599,ORD-41957,CUS-00408,2026-07-26T05:24:08,app_chat,"The rider reached Masala Garden on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10600,ORD-39181,CUS-00580,2026-07-26T07:33:47,app_chat,I entered my old address by mistake for order ORD-39181.,CUSTOMER_UNAVAILABLE
+TKT-10601,ORD-36114,CUS-00006,2026-07-26T08:40:19,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10602,ORD-35741,CUS-00748,2026-07-26T09:45:11,phone,"The rider got lost twice and ignored the navigation, order ORD-35741 came late. Otherwise the app works fine.",RIDER_DELAY
+TKT-10603,ORD-39699,CUS-01894,2026-07-26T10:01:23,app_chat,"The rider reached Monsoon House on time but the food was not ready, so my order came late. I order from here every week.",KITCHEN_DELAY
+TKT-10604,ORD-42081,CUS-01710,2026-07-26T13:41:23,app_chat,The rider picked up the food quickly but then stopped for a long time on the way. I order from here every week.,RIDER_DELAY
+TKT-10605,ORD-43874,CUS-01423,2026-07-26T14:51:59,phone,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10606,ORD-38384,CUS-01056,2026-07-26T18:25:45,app_chat,Wrong dish delivered. This is not what I ordered from Golden Table.,WRONG_ITEM
+TKT-10607,ORD-40257,CUS-00788,2026-07-26T18:49:59,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10608,ORD-39920,CUS-00649,2026-07-26T19:04:11,app_chat,I gave the wrong flat number so the rider could not find me. I order from here every week.,CUSTOMER_UNAVAILABLE
+TKT-10609,ORD-37460,CUS-00906,2026-07-26T20:35:37,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10610,ORD-40244,CUS-00428,2026-07-26T20:43:48,app_chat,"The rider reached Spice Table on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10611,ORD-35455,CUS-01225,2026-07-27T01:27:29,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10612,ORD-43460,CUS-00944,2026-07-27T02:02:23,email,Golden House took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10613,ORD-39450,CUS-01225,2026-07-27T02:17:45,app_chat,Please change the email address on my account.,OTHER
+TKT-10614,ORD-35210,CUS-00912,2026-07-27T03:07:51,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10615,ORD-37596,CUS-00375,2026-07-27T03:31:05,app_chat,Wrong dish delivered. This is not what I ordered from Royal Express.,WRONG_ITEM
+TKT-10616,ORD-40125,CUS-00452,2026-07-27T06:19:40,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10617,ORD-39394,CUS-01926,2026-07-27T06:24:15,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10618,ORD-37842,CUS-01108,2026-07-27T06:44:31,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10619,ORD-43061,CUS-01699,2026-07-27T07:23:21,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10620,ORD-31010,CUS-00015,2026-07-27T08:16:59,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10621,ORD-32434,CUS-00213,2026-07-27T10:26:32,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10622,ORD-41467,CUS-01577,2026-07-27T10:55:23,email,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10623,ORD-37013,CUS-01591,2026-07-27T13:29:11,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10624,ORD-33967,CUS-01956,2026-07-27T14:35:05,app_chat,Tandoor House took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10625,ORD-39153,CUS-01256,2026-07-27T14:50:00,app_chat,Food was still being cooked when the delivery partner arrived at Tandoor Bowl.,KITCHEN_DELAY
+TKT-10626,ORD-30526,CUS-01967,2026-07-27T14:57:02,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10627,ORD-44859,CUS-01175,2026-07-27T15:06:23,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10628,ORD-30193,CUS-00081,2026-07-27T15:41:20,app_chat,I entered my old address by mistake for order ORD-30193.,CUSTOMER_UNAVAILABLE
+TKT-10629,ORD-41605,CUS-00109,2026-07-27T18:07:00,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10630,ORD-31491,CUS-00168,2026-07-27T19:20:50,email,Coastal Dhaba took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10631,ORD-30998,CUS-00622,2026-07-27T20:42:32,app_chat,"The rider reached Royal Kitchen on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10632,ORD-33795,CUS-01733,2026-07-27T21:19:28,phone,I cannot apply my coupon code at checkout.,OTHER
+TKT-10633,ORD-33395,CUS-00344,2026-07-27T22:45:05,app_chat,Half the items in order ORD-33395 were missing.,WRONG_ITEM
+TKT-10634,ORD-39137,CUS-01722,2026-07-27T23:51:37,phone,"One item was missing from order ORD-39137, the dessert never came.",WRONG_ITEM
+TKT-10635,ORD-32491,CUS-00532,2026-07-28T00:19:42,app_chat,Half the items in order ORD-32491 were missing. I order from here every week.,WRONG_ITEM
+TKT-10636,ORD-40313,CUS-01956,2026-07-28T00:27:16,email,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10637,ORD-37238,CUS-01104,2026-07-28T00:56:59,app_chat,"One item was missing from order ORD-37238, the dessert never came.",WRONG_ITEM
+TKT-10638,ORD-31111,CUS-01855,2026-07-28T01:08:51,app_chat,Wrong dish delivered. This is not what I ordered from Green Kitchen.,WRONG_ITEM
+TKT-10639,ORD-35255,CUS-01202,2026-07-28T01:20:15,app_chat,"The rider got lost twice and ignored the navigation, order ORD-35255 came late.",RIDER_DELAY
+TKT-10640,ORD-43241,CUS-00772,2026-07-28T01:24:50,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10641,ORD-30563,CUS-01520,2026-07-28T01:41:43,email,The curry had spilled all over the bag when it arrived. Otherwise the app works fine.,DAMAGED_IN_TRANSIT
+TKT-10642,ORD-43817,CUS-00803,2026-07-28T05:11:57,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10643,ORD-32419,CUS-01323,2026-07-28T05:17:00,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10644,ORD-40802,CUS-00601,2026-07-28T07:03:50,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10645,ORD-30867,CUS-01854,2026-07-28T07:14:52,app_chat,Please change the email address on my account.,OTHER
+TKT-10646,ORD-43108,CUS-00207,2026-07-28T08:41:24,email,Lotus Bowl took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10647,ORD-35845,CUS-00800,2026-07-28T09:36:41,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10648,ORD-42113,CUS-00091,2026-07-28T12:08:57,email,Tracking showed the rider standing still for 15 minutes after pickup. Otherwise the app works fine.,RIDER_DELAY
+TKT-10649,ORD-34443,CUS-01424,2026-07-28T12:43:25,app_chat,I ordered a paneer roll but got a chicken roll from Urban Street.,WRONG_ITEM
+TKT-10650,ORD-38705,CUS-01699,2026-07-28T13:04:14,email,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10651,ORD-40121,CUS-01191,2026-07-28T15:10:41,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10652,ORD-32188,CUS-01961,2026-07-28T16:12:49,phone,My food left Royal Garden early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10653,ORD-32940,CUS-00183,2026-07-28T16:45:43,app_chat,Order ORD-32940 was delayed because the kitchen at Bombay Street was not ready.,KITCHEN_DELAY
+TKT-10654,ORD-35396,CUS-01441,2026-07-28T17:52:21,phone,Lotus Table took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10655,ORD-44928,CUS-00945,2026-07-28T22:31:32,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10656,ORD-33002,CUS-00527,2026-07-28T23:49:17,email,Food was still being cooked when the delivery partner arrived at Royal Bistro.,KITCHEN_DELAY
+TKT-10657,ORD-43026,CUS-01622,2026-07-29T01:52:31,email,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10658,ORD-30643,CUS-00507,2026-07-29T03:02:50,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10659,ORD-39097,CUS-00353,2026-07-29T04:57:46,phone,Royal Table took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10660,ORD-33422,CUS-01858,2026-07-29T13:33:06,email,Bombay Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10661,ORD-38962,CUS-00021,2026-07-29T17:24:28,email,I ordered a paneer roll but got a chicken roll from Lotus Bowl.,WRONG_ITEM
+TKT-10662,ORD-31065,CUS-01098,2026-07-29T18:24:43,app_chat,I entered my old address by mistake for order ORD-31065.,CUSTOMER_UNAVAILABLE
+TKT-10663,ORD-39393,CUS-01823,2026-07-29T19:23:29,phone,Golden Garden took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10664,ORD-35847,CUS-01029,2026-07-29T23:01:36,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10665,ORD-37758,CUS-01599,2026-07-29T23:19:22,app_chat,Tandoor Express took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10666,ORD-42818,CUS-00522,2026-07-30T01:01:37,app_chat,The app charged me twice for order ORD-42818.,OTHER
+TKT-10667,ORD-39037,CUS-01549,2026-07-30T01:22:37,email,Wrong dish delivered. This is not what I ordered from Urban Bistro.,WRONG_ITEM
+TKT-10668,ORD-38194,CUS-00235,2026-07-30T02:25:05,email,"The rider reached Coastal Express on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10669,ORD-38187,CUS-01869,2026-07-30T02:50:00,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10670,ORD-34344,CUS-00585,2026-07-30T05:01:10,app_chat,"The rider got lost twice and ignored the navigation, order ORD-34344 came late.",RIDER_DELAY
+TKT-10671,ORD-43932,CUS-01039,2026-07-30T08:26:21,app_chat,I ordered a paneer roll but got a chicken roll from Spice Kitchen.,WRONG_ITEM
+TKT-10672,ORD-40358,CUS-00121,2026-07-30T09:53:10,app_chat,Food was still being cooked when the delivery partner arrived at Urban Express.,KITCHEN_DELAY
+TKT-10673,ORD-36517,CUS-01016,2026-07-30T12:29:01,email,The app crashed while I was placing my order.,OTHER
+TKT-10674,ORD-38302,CUS-01076,2026-07-30T13:10:55,phone,I entered my old address by mistake for order ORD-38302.,CUSTOMER_UNAVAILABLE
+TKT-10675,ORD-34521,CUS-01212,2026-07-30T13:55:03,email,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-10676,ORD-39609,CUS-00042,2026-07-30T20:09:09,phone,I cannot apply my coupon code at checkout.,OTHER
+TKT-10677,ORD-32972,CUS-00639,2026-07-31T03:43:16,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10678,ORD-31496,CUS-00042,2026-07-31T10:14:22,email,How do I delete my saved card from the app?,OTHER
+TKT-10679,ORD-37978,CUS-00243,2026-07-31T10:55:42,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10680,ORD-43770,CUS-01301,2026-07-31T15:52:57,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10681,ORD-30081,CUS-00739,2026-07-31T19:17:39,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10682,ORD-37348,CUS-01477,2026-07-31T21:29:56,app_chat,I ordered a paneer roll but got a chicken roll from Saffron Bowl.,WRONG_ITEM
+TKT-10683,ORD-33548,CUS-01622,2026-07-31T21:34:06,app_chat,I entered my old address by mistake for order ORD-33548.,CUSTOMER_UNAVAILABLE
+TKT-10684,ORD-38210,CUS-00834,2026-07-31T23:25:32,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10685,ORD-35880,CUS-00511,2026-07-31T23:32:46,app_chat,"The rider reached Spice Garden on time but the food was not ready, so my order came late. Otherwise the app works fine.",KITCHEN_DELAY
+TKT-10686,ORD-31142,CUS-01765,2026-08-01T00:04:40,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10687,ORD-38538,CUS-01455,2026-08-01T00:53:47,phone,Food was still being cooked when the delivery partner arrived at Tandoor Garden.,KITCHEN_DELAY
+TKT-10688,ORD-35749,CUS-00782,2026-08-01T04:12:52,app_chat,Order ORD-35749 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10689,ORD-36480,CUS-01817,2026-08-01T04:39:57,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10690,ORD-39359,CUS-00728,2026-08-01T09:00:21,app_chat,Order ORD-39359 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10691,ORD-42105,CUS-01310,2026-08-01T09:04:18,app_chat,The rider told me the restaurant had not even started cooking when he got there. Otherwise the app works fine.,KITCHEN_DELAY
+TKT-10692,ORD-36668,CUS-00140,2026-08-01T10:31:46,app_chat,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10693,ORD-43771,CUS-00146,2026-08-01T12:41:56,app_chat,Order ORD-43771 was delayed because the kitchen at Spice Express was not ready.,KITCHEN_DELAY
+TKT-10694,ORD-42952,CUS-01606,2026-08-01T13:19:02,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10695,ORD-32111,CUS-00990,2026-08-01T13:48:24,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10696,ORD-39281,CUS-00332,2026-08-01T13:57:22,email,"The rider got lost twice and ignored the navigation, order ORD-39281 came late.",RIDER_DELAY
+TKT-10697,ORD-36537,CUS-01001,2026-08-01T16:06:52,phone,Please change the email address on my account. Otherwise the app works fine.,OTHER
+TKT-10698,ORD-37708,CUS-01814,2026-08-01T18:10:55,app_chat,I want to know why my payment is still pending. I order from here every week.,OTHER
+TKT-10699,ORD-42877,CUS-00623,2026-08-01T19:09:21,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10700,ORD-38965,CUS-01722,2026-08-01T22:16:41,email,Tandoor Kitchen took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10701,ORD-35423,CUS-00248,2026-08-01T23:23:44,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10702,ORD-31170,CUS-00581,2026-08-02T01:32:24,email,I ordered a paneer roll but got a chicken roll from Monsoon Corner. The rider was polite though.,WRONG_ITEM
+TKT-10703,ORD-41602,CUS-01969,2026-08-02T04:00:22,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10704,ORD-39600,CUS-00423,2026-08-02T05:08:36,email,The container broke on the way and the food leaked everywhere. The rider was polite though.,DAMAGED_IN_TRANSIT
+TKT-10705,ORD-34989,CUS-01663,2026-08-02T05:25:15,app_chat,"The rider got lost twice and ignored the navigation, order ORD-34989 came late.",RIDER_DELAY
+TKT-10706,ORD-35871,CUS-01468,2026-08-02T07:59:45,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10707,ORD-42378,CUS-01012,2026-08-02T08:29:19,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10708,ORD-43459,CUS-00934,2026-08-02T12:17:05,app_chat,Half the items in order ORD-43459 were missing.,WRONG_ITEM
+TKT-10709,ORD-43849,CUS-00134,2026-08-02T12:39:18,email,How do I delete my saved card from the app?,OTHER
+TKT-10710,ORD-37442,CUS-01944,2026-08-02T12:44:27,app_chat,Please change the email address on my account.,OTHER
+TKT-10711,ORD-35461,CUS-00476,2026-08-02T14:52:06,app_chat,"The rider got lost twice and ignored the navigation, order ORD-35461 came late.",RIDER_DELAY
+TKT-10712,ORD-40076,CUS-00419,2026-08-02T18:00:58,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10713,ORD-41687,CUS-01362,2026-08-02T18:13:46,app_chat,Please change the email address on my account.,OTHER
+TKT-10714,ORD-43869,CUS-01123,2026-08-02T21:00:54,app_chat,"My order was incomplete, the drinks were not in the bag. The rider was polite though.",WRONG_ITEM
+TKT-10715,ORD-38232,CUS-00642,2026-08-02T21:01:03,email,Order ORD-38232 was delayed because the kitchen at Bombay Bowl was not ready. The rider was polite though.,KITCHEN_DELAY
+TKT-10716,ORD-35096,CUS-01183,2026-08-02T21:06:51,phone,The restaurant was very slow to pack my order while the rider waited outside. I order from here every week.,KITCHEN_DELAY
+TKT-10717,ORD-39786,CUS-00123,2026-08-02T23:05:29,phone,"The rider reached Coastal Garden on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10718,ORD-38049,CUS-01163,2026-08-03T01:25:03,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10719,ORD-41027,CUS-00745,2026-08-03T02:35:28,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10720,ORD-44852,CUS-00420,2026-08-03T02:42:32,email,Wrong dish delivered. This is not what I ordered from Saffron Street.,WRONG_ITEM
+TKT-10721,ORD-39500,CUS-00060,2026-08-03T02:58:25,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10722,ORD-32280,CUS-01584,2026-08-03T04:22:11,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10723,ORD-43151,CUS-00196,2026-08-03T05:56:00,app_chat,Order ORD-43151 was delayed because the kitchen at Masala Bistro was not ready.,KITCHEN_DELAY
+TKT-10724,ORD-35518,CUS-01726,2026-08-03T06:13:34,email,The app crashed while I was placing my order.,OTHER
+TKT-10725,ORD-44948,CUS-01803,2026-08-03T07:28:35,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10726,ORD-32596,CUS-00477,2026-08-03T12:51:41,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10727,ORD-37921,CUS-01227,2026-08-03T13:46:48,email,Lotus Express took forever to prepare the food. The rider said he waited at the kitchen for a long time. The rider was polite though.,KITCHEN_DELAY
+TKT-10728,ORD-44620,CUS-00582,2026-08-03T15:46:47,phone,Saffron Kitchen took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10729,ORD-32573,CUS-00006,2026-08-03T15:54:55,app_chat,Monsoon Corner took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10730,ORD-44947,CUS-01049,2026-08-03T18:12:19,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10731,ORD-31740,CUS-00901,2026-08-03T19:58:15,email,Order ORD-31740 was delayed because the kitchen at Urban Table was not ready.,KITCHEN_DELAY
+TKT-10732,ORD-39876,CUS-01257,2026-08-03T21:48:00,email,"The rider got lost twice and ignored the navigation, order ORD-39876 came late.",RIDER_DELAY
+TKT-10733,ORD-33595,CUS-01598,2026-08-03T22:40:00,app_chat,Half the items in order ORD-33595 were missing.,WRONG_ITEM
+TKT-10734,ORD-38571,CUS-01481,2026-08-03T22:51:02,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10735,ORD-36280,CUS-00765,2026-08-03T23:49:44,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10736,ORD-30756,CUS-00050,2026-08-04T03:12:13,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10737,ORD-40962,CUS-01591,2026-08-04T05:00:14,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10738,ORD-31218,CUS-00052,2026-08-04T05:28:16,app_chat,I was not at home when the rider came and my phone was switched off. The rider was polite though.,CUSTOMER_UNAVAILABLE
+TKT-10739,ORD-35702,CUS-00645,2026-08-04T07:06:17,app_chat,How do I delete my saved card from the app? The rider was polite though.,OTHER
+TKT-10740,ORD-34374,CUS-01522,2026-08-04T07:09:56,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10741,ORD-32755,CUS-00684,2026-08-04T08:57:52,email,Wrong dish delivered. This is not what I ordered from Saffron Bowl.,WRONG_ITEM
+TKT-10742,ORD-41340,CUS-00403,2026-08-04T10:50:13,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10743,ORD-39612,CUS-00041,2026-08-04T15:46:40,app_chat,Tracking showed the rider standing still for 15 minutes after pickup. The rider was polite though.,RIDER_DELAY
+TKT-10744,ORD-43250,CUS-00784,2026-08-04T16:26:18,phone,My food left Coastal Bistro early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10745,ORD-35282,CUS-00743,2026-08-04T17:33:51,app_chat,My food left Golden Bowl early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10746,ORD-34081,CUS-00840,2026-08-04T18:27:52,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10747,ORD-39547,CUS-00732,2026-08-04T18:30:12,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10748,ORD-37706,CUS-00828,2026-08-04T21:05:36,app_chat,The rider picked up the food quickly but then stopped for a long time on the way. Otherwise the app works fine.,RIDER_DELAY
+TKT-10749,ORD-33052,CUS-01572,2026-08-04T21:43:47,email,"The rider got lost twice and ignored the navigation, order ORD-33052 came late.",RIDER_DELAY
+TKT-10750,ORD-41231,CUS-00996,2026-08-04T23:31:45,email,Golden House took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10751,ORD-35356,CUS-00544,2026-08-05T02:24:15,app_chat,I was not at home when the rider came and my phone was switched off. The rider was polite though.,CUSTOMER_UNAVAILABLE
+TKT-10752,ORD-31486,CUS-00941,2026-08-05T08:07:49,app_chat,Order ORD-31486 was delayed because the kitchen at Tandoor Table was not ready.,KITCHEN_DELAY
+TKT-10753,ORD-37394,CUS-01767,2026-08-05T08:59:08,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10754,ORD-32935,CUS-00573,2026-08-05T09:34:39,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10755,ORD-41664,CUS-01747,2026-08-05T09:44:18,email,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10756,ORD-35009,CUS-01385,2026-08-05T16:08:02,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10757,ORD-34853,CUS-01902,2026-08-05T16:56:46,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10758,ORD-37837,CUS-01026,2026-08-05T17:07:59,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10759,ORD-43168,CUS-00659,2026-08-05T19:58:07,app_chat,Wrong dish delivered. This is not what I ordered from Bombay Dhaba.,WRONG_ITEM
+TKT-10760,ORD-32076,CUS-00103,2026-08-05T23:00:29,app_chat,"My order was incomplete, the drinks were not in the bag. I order from here every week.",WRONG_ITEM
+TKT-10761,ORD-34205,CUS-01244,2026-08-05T23:24:37,email,My address pin was wrong and the rider went to another building. Otherwise the app works fine.,CUSTOMER_UNAVAILABLE
+TKT-10762,ORD-40241,CUS-01371,2026-08-06T01:12:07,email,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10763,ORD-40632,CUS-00632,2026-08-06T01:20:07,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10764,ORD-41915,CUS-01784,2026-08-06T01:44:25,email,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10765,ORD-43688,CUS-01484,2026-08-06T02:12:21,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10766,ORD-39218,CUS-01718,2026-08-06T03:18:02,app_chat,I gave the wrong flat number so the rider could not find me. The rider was polite though.,CUSTOMER_UNAVAILABLE
+TKT-10767,ORD-40961,CUS-00897,2026-08-06T03:36:22,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10768,ORD-31399,CUS-01163,2026-08-06T05:41:27,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10769,ORD-39007,CUS-01107,2026-08-06T05:45:48,app_chat,Golden Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10770,ORD-31768,CUS-00272,2026-08-06T05:54:15,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10771,ORD-33343,CUS-01025,2026-08-06T05:57:15,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10772,ORD-31941,CUS-01037,2026-08-06T11:30:45,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10773,ORD-35751,CUS-01168,2026-08-06T11:56:00,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10774,ORD-33464,CUS-00374,2026-08-06T14:00:37,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10775,ORD-32656,CUS-01657,2026-08-06T14:08:51,app_chat,My food left Tandoor Bowl early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10776,ORD-34057,CUS-00303,2026-08-06T14:49:53,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10777,ORD-38122,CUS-01831,2026-08-06T17:21:38,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10778,ORD-44135,CUS-01976,2026-08-06T19:34:43,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10779,ORD-36546,CUS-00177,2026-08-06T20:04:31,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10780,ORD-40940,CUS-01426,2026-08-06T23:43:38,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10781,ORD-36691,CUS-00762,2026-08-07T01:48:52,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10782,ORD-40815,CUS-00637,2026-08-07T03:46:19,app_chat,"The rider got lost twice and ignored the navigation, order ORD-40815 came late.",RIDER_DELAY
+TKT-10783,ORD-37894,CUS-01798,2026-08-07T05:29:34,email,"The rider reached Green Bistro on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10784,ORD-36214,CUS-00594,2026-08-07T05:57:23,app_chat,The restaurant was very slow to pack my order while the rider waited outside. I order from here every week.,KITCHEN_DELAY
+TKT-10785,ORD-42691,CUS-00664,2026-08-07T07:39:51,app_chat,Please change the email address on my account.,OTHER
+TKT-10786,ORD-42803,CUS-00609,2026-08-07T08:40:04,app_chat,The restaurant was very slow to pack my order while the rider waited outside. I order from here every week.,KITCHEN_DELAY
+TKT-10787,ORD-36503,CUS-00471,2026-08-07T13:02:24,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10788,ORD-32245,CUS-00885,2026-08-07T13:22:01,email,Order ORD-32245 was delayed because the kitchen at Bombay Table was not ready.,KITCHEN_DELAY
+TKT-10789,ORD-41677,CUS-00086,2026-08-07T13:56:17,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10790,ORD-31157,CUS-00355,2026-08-07T14:21:47,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10791,ORD-44881,CUS-00981,2026-08-07T16:32:19,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10792,ORD-38188,CUS-00061,2026-08-07T17:48:35,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10793,ORD-43536,CUS-01968,2026-08-07T19:36:04,email,Wrong dish delivered. This is not what I ordered from Bombay Express.,WRONG_ITEM
+TKT-10794,ORD-44826,CUS-00109,2026-08-07T21:37:33,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10795,ORD-33309,CUS-00330,2026-08-08T01:02:03,email,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10796,ORD-36551,CUS-01956,2026-08-08T03:32:53,email,I want to know why my payment is still pending.,OTHER
+TKT-10797,ORD-36082,CUS-01939,2026-08-08T04:42:27,app_chat,Order ORD-36082 was delayed because the kitchen at Saffron Dhaba was not ready.,KITCHEN_DELAY
+TKT-10798,ORD-43700,CUS-01593,2026-08-08T07:53:43,email,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10799,ORD-39104,CUS-00084,2026-08-08T08:20:38,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10800,ORD-37160,CUS-00631,2026-08-08T08:50:08,app_chat,"The rider got lost twice and ignored the navigation, order ORD-37160 came late.",RIDER_DELAY
+TKT-10801,ORD-39592,CUS-01483,2026-08-08T09:27:24,email,"The rider got lost twice and ignored the navigation, order ORD-39592 came late. Otherwise the app works fine.",RIDER_DELAY
+TKT-10802,ORD-43575,CUS-00627,2026-08-08T10:36:14,app_chat,I entered my old address by mistake for order ORD-43575.,CUSTOMER_UNAVAILABLE
+TKT-10803,ORD-37538,CUS-00500,2026-08-08T11:05:57,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10804,ORD-38093,CUS-01342,2026-08-08T13:14:47,app_chat,My food left Saffron Kitchen early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10805,ORD-32270,CUS-00900,2026-08-08T14:33:46,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10806,ORD-37444,CUS-01545,2026-08-08T17:24:43,app_chat,"One item was missing from order ORD-37444, the dessert never came.",WRONG_ITEM
+TKT-10807,ORD-31436,CUS-01529,2026-08-08T17:35:49,app_chat,Wrong dish delivered. This is not what I ordered from Royal Dhaba. Otherwise the app works fine.,WRONG_ITEM
+TKT-10808,ORD-39956,CUS-01400,2026-08-08T20:44:45,email,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10809,ORD-44706,CUS-01383,2026-08-08T23:14:40,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10810,ORD-33754,CUS-00881,2026-08-09T01:02:24,phone,"The rider reached Lotus Garden on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10811,ORD-43896,CUS-01443,2026-08-09T03:54:38,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-10812,ORD-44127,CUS-00251,2026-08-09T05:35:12,email,Food was still being cooked when the delivery partner arrived at Spice Table. The rider was polite though.,KITCHEN_DELAY
+TKT-10813,ORD-43825,CUS-01775,2026-08-09T06:30:18,app_chat,My food left Royal Corner early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10814,ORD-37223,CUS-00482,2026-08-09T07:04:59,app_chat,"The rider got lost twice and ignored the navigation, order ORD-37223 came late.",RIDER_DELAY
+TKT-10815,ORD-43846,CUS-01461,2026-08-09T08:24:38,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10816,ORD-30820,CUS-01199,2026-08-09T10:54:25,email,My food left Royal Bistro early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10817,ORD-40078,CUS-00846,2026-08-09T12:30:59,email,How do I delete my saved card from the app?,OTHER
+TKT-10818,ORD-32443,CUS-01123,2026-08-09T13:56:49,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10819,ORD-30491,CUS-01229,2026-08-09T15:00:18,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10820,ORD-30611,CUS-01431,2026-08-09T16:21:57,phone,The rider picked up the food quickly but then stopped for a long time on the way. Otherwise the app works fine.,RIDER_DELAY
+TKT-10821,ORD-32931,CUS-01458,2026-08-09T21:57:25,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10822,ORD-34463,CUS-01646,2026-08-09T23:22:17,email,I cannot apply my coupon code at checkout.,OTHER
+TKT-10823,ORD-38825,CUS-00420,2026-08-09T23:46:45,app_chat,"One item was missing from order ORD-38825, the dessert never came.",WRONG_ITEM
+TKT-10824,ORD-30953,CUS-00404,2026-08-10T02:27:12,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10825,ORD-35859,CUS-01733,2026-08-10T04:09:31,email,"The rider got lost twice and ignored the navigation, order ORD-35859 came late.",RIDER_DELAY
+TKT-10826,ORD-40334,CUS-01150,2026-08-10T05:06:47,email,The rider told me the restaurant had not even started cooking when he got there. I order from here every week.,KITCHEN_DELAY
+TKT-10827,ORD-43931,CUS-01270,2026-08-10T06:59:02,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10828,ORD-33216,CUS-01562,2026-08-10T09:04:17,app_chat,Food was still being cooked when the delivery partner arrived at Golden Bistro.,KITCHEN_DELAY
+TKT-10829,ORD-42096,CUS-01931,2026-08-10T09:04:46,email,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10830,ORD-44001,CUS-01205,2026-08-10T09:57:40,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10831,ORD-36565,CUS-00832,2026-08-10T11:38:42,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10832,ORD-35428,CUS-00165,2026-08-10T14:37:06,app_chat,"The rider could not reach me, I was out and did not pick up. I order from here every week.",CUSTOMER_UNAVAILABLE
+TKT-10833,ORD-43328,CUS-01676,2026-08-10T14:56:43,email,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10834,ORD-42899,CUS-00183,2026-08-10T16:59:57,app_chat,My food left Coastal Kitchen early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10835,ORD-40021,CUS-01997,2026-08-10T19:34:03,app_chat,"The rider reached Green Garden on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10836,ORD-35173,CUS-00509,2026-08-10T19:39:09,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10837,ORD-33980,CUS-00035,2026-08-10T20:21:08,phone,My food left Lotus House early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10838,ORD-33022,CUS-01837,2026-08-10T20:21:16,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10839,ORD-34983,CUS-00489,2026-08-10T20:21:55,app_chat,Please change the email address on my account.,OTHER
+TKT-10840,ORD-39169,CUS-01016,2026-08-10T22:45:22,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10841,ORD-35244,CUS-00549,2026-08-10T23:28:29,email,I want to know why my payment is still pending.,OTHER
+TKT-10842,ORD-40530,CUS-01078,2026-08-11T00:14:23,phone,The restaurant was very slow to pack my order while the rider waited outside. I order from here every week.,KITCHEN_DELAY
+TKT-10843,ORD-41953,CUS-01826,2026-08-11T00:14:27,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10844,ORD-37794,CUS-00239,2026-08-11T07:53:45,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10845,ORD-36704,CUS-01403,2026-08-11T08:22:36,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10846,ORD-32829,CUS-01469,2026-08-11T08:58:58,app_chat,The delivery guy took a long detour and the food arrived cold. Otherwise the app works fine.,RIDER_DELAY
+TKT-10847,ORD-40982,CUS-00823,2026-08-11T11:27:18,app_chat,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-10848,ORD-33964,CUS-01338,2026-08-11T11:35:56,app_chat,I received someone else's food with completely different items. I order from here every week.,WRONG_ITEM
+TKT-10849,ORD-37343,CUS-01944,2026-08-11T11:53:34,email,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10850,ORD-35995,CUS-01473,2026-08-11T13:51:01,app_chat,Please change the email address on my account.,OTHER
+TKT-10851,ORD-35934,CUS-00070,2026-08-11T14:32:42,app_chat,I cannot apply my coupon code at checkout. Otherwise the app works fine.,OTHER
+TKT-10852,ORD-35575,CUS-01176,2026-08-11T14:38:27,phone,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10853,ORD-43860,CUS-00884,2026-08-11T14:42:11,app_chat,"The rider reached Bombay Street on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10854,ORD-35350,CUS-00560,2026-08-11T16:52:48,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10855,ORD-31536,CUS-01581,2026-08-11T18:57:47,app_chat,I ordered a paneer roll but got a chicken roll from Urban Express.,WRONG_ITEM
+TKT-10856,ORD-33958,CUS-00005,2026-08-11T19:46:31,email,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10857,ORD-38385,CUS-01240,2026-08-11T20:20:35,email,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10858,ORD-30205,CUS-01489,2026-08-11T22:09:32,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10859,ORD-36857,CUS-00988,2026-08-11T23:37:34,phone,The restaurant was very slow to pack my order while the rider waited outside. I order from here every week.,KITCHEN_DELAY
+TKT-10860,ORD-37686,CUS-00111,2026-08-12T00:25:15,app_chat,Order ORD-37686 was delayed because the kitchen at Urban Bistro was not ready.,KITCHEN_DELAY
+TKT-10861,ORD-31056,CUS-00357,2026-08-12T00:32:30,phone,Half the items in order ORD-31056 were missing. The rider was polite though.,WRONG_ITEM
+TKT-10862,ORD-38681,CUS-01571,2026-08-12T01:06:43,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10863,ORD-36903,CUS-00660,2026-08-12T04:44:39,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10864,ORD-38710,CUS-01246,2026-08-12T04:44:49,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10865,ORD-41576,CUS-00830,2026-08-12T04:51:19,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10866,ORD-32007,CUS-01590,2026-08-12T04:51:31,email,Bombay Dhaba took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10867,ORD-37600,CUS-01052,2026-08-12T06:38:03,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10868,ORD-38744,CUS-00268,2026-08-12T08:29:20,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10869,ORD-40661,CUS-00863,2026-08-12T09:20:29,app_chat,Please change the email address on my account.,OTHER
+TKT-10870,ORD-38985,CUS-00950,2026-08-12T11:44:30,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10871,ORD-38455,CUS-00778,2026-08-12T12:17:15,email,"The rider reached Spice Table on time but the food was not ready, so my order came late. I order from here every week.",KITCHEN_DELAY
+TKT-10872,ORD-37137,CUS-01232,2026-08-12T13:31:50,app_chat,I ordered a paneer roll but got a chicken roll from Urban Bistro. Otherwise the app works fine.,WRONG_ITEM
+TKT-50001,ORD-50001,CUS-01991,2026-08-12T13:52:10,app_chat,"My Instant order came late, the rider stopped on the way for a long time.",RIDER_DELAY
+TKT-10873,ORD-42367,CUS-00678,2026-08-12T16:08:32,app_chat,"The rider got lost twice and ignored the navigation, order ORD-42367 came late.",RIDER_DELAY
+TKT-10874,ORD-31101,CUS-00160,2026-08-12T16:43:33,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10875,ORD-32662,CUS-01126,2026-08-12T17:02:45,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10876,ORD-36217,CUS-00936,2026-08-12T17:11:48,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10877,ORD-43254,CUS-01600,2026-08-12T17:23:05,app_chat,My food left Masala Bistro early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10878,ORD-34116,CUS-00497,2026-08-12T18:18:53,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10879,ORD-39771,CUS-01783,2026-08-12T20:29:25,email,"One item was missing from order ORD-39771, the dessert never came.",WRONG_ITEM
+TKT-50002,ORD-50002,CUS-01992,2026-08-12T21:03:00,app_chat,The rider waited at the restaurant because the food was not ready.,KITCHEN_DELAY
+TKT-10880,ORD-38799,CUS-01022,2026-08-12T22:08:37,app_chat,I entered my old address by mistake for order ORD-38799.,CUSTOMER_UNAVAILABLE
+TKT-10881,ORD-34623,CUS-00799,2026-08-13T00:32:26,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10882,ORD-33830,CUS-00954,2026-08-13T04:09:08,app_chat,I cannot apply my coupon code at checkout. Otherwise the app works fine.,OTHER
+TKT-10883,ORD-41714,CUS-01526,2026-08-13T11:19:23,app_chat,Order ORD-41714 was delayed because the kitchen at Green House was not ready.,KITCHEN_DELAY
+TKT-10884,ORD-41350,CUS-01195,2026-08-13T13:42:13,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10885,ORD-38912,CUS-00054,2026-08-13T13:48:08,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-10886,ORD-40243,CUS-01940,2026-08-13T13:53:36,email,Order ORD-40243 was delayed because the kitchen at Lotus Dhaba was not ready.,KITCHEN_DELAY
+TKT-10887,ORD-37551,CUS-00828,2026-08-13T18:55:55,app_chat,Order ORD-37551 was delayed because the kitchen at Monsoon Bowl was not ready.,KITCHEN_DELAY
+TKT-10888,ORD-32372,CUS-00350,2026-08-13T19:48:19,email,"The rider reached Urban Corner on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10889,ORD-44397,CUS-00853,2026-08-13T20:15:39,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10890,ORD-39736,CUS-00800,2026-08-13T22:22:57,email,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10891,ORD-31221,CUS-00929,2026-08-14T01:30:48,email,I entered my old address by mistake for order ORD-31221.,CUSTOMER_UNAVAILABLE
+TKT-10892,ORD-32791,CUS-00876,2026-08-14T05:00:50,phone,How do I delete my saved card from the app?,OTHER
+TKT-10893,ORD-34960,CUS-01741,2026-08-14T06:18:32,app_chat,The app charged me twice for order ORD-34960.,OTHER
+TKT-10894,ORD-42866,CUS-00714,2026-08-14T07:35:50,phone,My food left Royal House early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10895,ORD-43563,CUS-01043,2026-08-14T12:28:16,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10896,ORD-31195,CUS-01467,2026-08-14T13:34:00,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10897,ORD-31322,CUS-00497,2026-08-14T15:49:04,email,"The rider got lost twice and ignored the navigation, order ORD-31322 came late.",RIDER_DELAY
+TKT-10898,ORD-30028,CUS-01293,2026-08-14T16:17:58,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10899,ORD-42296,CUS-00728,2026-08-14T18:06:13,app_chat,Half the items in order ORD-42296 were missing.,WRONG_ITEM
+TKT-10900,ORD-44481,CUS-01532,2026-08-14T21:00:22,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10901,ORD-33209,CUS-01827,2026-08-14T22:20:18,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10902,ORD-42496,CUS-00012,2026-08-15T02:40:08,phone,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10903,ORD-44869,CUS-01722,2026-08-15T03:01:38,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10904,ORD-37387,CUS-01050,2026-08-15T03:04:00,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10905,ORD-35603,CUS-00610,2026-08-15T04:19:24,app_chat,Food was still being cooked when the delivery partner arrived at Golden Dhaba. I order from here every week.,KITCHEN_DELAY
+TKT-10906,ORD-40434,CUS-01745,2026-08-15T05:11:58,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10907,ORD-43491,CUS-00539,2026-08-15T05:16:42,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10908,ORD-39608,CUS-00568,2026-08-15T07:21:50,app_chat,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10909,ORD-33616,CUS-00122,2026-08-15T12:11:52,app_chat,"The rider reached Tandoor House on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10910,ORD-33399,CUS-01977,2026-08-15T12:53:04,phone,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10911,ORD-43140,CUS-01856,2026-08-15T13:51:28,app_chat,Wrong dish delivered. This is not what I ordered from Bombay Express. The rider was polite though.,WRONG_ITEM
+TKT-10912,ORD-40771,CUS-00094,2026-08-15T14:13:16,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10913,ORD-41341,CUS-00874,2026-08-15T18:01:21,app_chat,"The rider got lost twice and ignored the navigation, order ORD-41341 came late.",RIDER_DELAY
+TKT-10914,ORD-40983,CUS-00022,2026-08-15T18:53:25,email,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-10915,ORD-32305,CUS-01566,2026-08-15T18:54:46,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10916,ORD-36148,CUS-00495,2026-08-15T19:31:22,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10917,ORD-41870,CUS-01029,2026-08-15T21:12:46,app_chat,I entered my old address by mistake for order ORD-41870.,CUSTOMER_UNAVAILABLE
+TKT-10918,ORD-42062,CUS-01352,2026-08-15T22:05:27,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10919,ORD-38990,CUS-01357,2026-08-15T22:31:36,email,My food left Masala Table early but the rider took ages to reach me. The rider was polite though.,RIDER_DELAY
+TKT-10920,ORD-39628,CUS-01950,2026-08-15T22:49:02,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10921,ORD-38645,CUS-00467,2026-08-16T00:28:22,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-10922,ORD-34651,CUS-01569,2026-08-16T01:14:25,phone,Half the items in order ORD-34651 were missing.,WRONG_ITEM
+TKT-10923,ORD-43411,CUS-01258,2026-08-16T03:10:31,app_chat,"The rider got lost twice and ignored the navigation, order ORD-43411 came late.",RIDER_DELAY
+TKT-10924,ORD-37587,CUS-01713,2026-08-16T03:24:11,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-10925,ORD-36052,CUS-00403,2026-08-16T03:53:33,app_chat,"Sorry, I missed the rider's calls because I was in a meeting. Otherwise the app works fine.",CUSTOMER_UNAVAILABLE
+TKT-10926,ORD-43161,CUS-00908,2026-08-16T05:18:18,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10927,ORD-39753,CUS-01057,2026-08-16T05:49:56,app_chat,The app charged me twice for order ORD-39753.,OTHER
+TKT-10928,ORD-40333,CUS-01126,2026-08-16T08:04:25,app_chat,I entered my old address by mistake for order ORD-40333.,CUSTOMER_UNAVAILABLE
+TKT-10929,ORD-39941,CUS-00989,2026-08-16T09:48:31,email,How do I delete my saved card from the app?,OTHER
+TKT-10930,ORD-34732,CUS-01186,2026-08-16T11:23:50,app_chat,I ordered a paneer roll but got a chicken roll from Saffron Garden. I order from here every week.,WRONG_ITEM
+TKT-10931,ORD-42796,CUS-01567,2026-08-16T11:46:56,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10932,ORD-33260,CUS-00961,2026-08-16T12:38:16,app_chat,Food was still being cooked when the delivery partner arrived at Lotus Bowl.,KITCHEN_DELAY
+TKT-10933,ORD-40785,CUS-00849,2026-08-16T13:34:12,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10934,ORD-40421,CUS-01193,2026-08-16T14:39:54,app_chat,The delivery guy took a long detour and the food arrived cold. Otherwise the app works fine.,RIDER_DELAY
+TKT-10935,ORD-34332,CUS-00834,2026-08-16T15:05:14,app_chat,My food left Lotus Kitchen early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10936,ORD-43538,CUS-00128,2026-08-16T15:25:05,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10937,ORD-44394,CUS-00327,2026-08-16T16:02:21,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-10938,ORD-31321,CUS-00033,2026-08-16T16:54:02,app_chat,My food left Bombay Bistro early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10939,ORD-41292,CUS-00908,2026-08-16T18:13:31,email,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-10940,ORD-30181,CUS-01958,2026-08-16T21:27:52,app_chat,Order ORD-30181 was delayed because the kitchen at Lotus Street was not ready.,KITCHEN_DELAY
+TKT-10941,ORD-37635,CUS-00103,2026-08-17T02:01:13,app_chat,"The rider reached Spice Table on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10942,ORD-43549,CUS-01202,2026-08-17T02:11:13,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10943,ORD-36759,CUS-01351,2026-08-17T02:38:25,app_chat,My food left Urban Dhaba early but the rider took ages to reach me. The rider was polite though.,RIDER_DELAY
+TKT-10944,ORD-44273,CUS-00972,2026-08-17T06:26:58,email,Order ORD-44273 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-10945,ORD-41204,CUS-00407,2026-08-17T06:49:45,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-10946,ORD-43005,CUS-01617,2026-08-17T07:59:53,app_chat,"The rider got lost twice and ignored the navigation, order ORD-43005 came late.",RIDER_DELAY
+TKT-10947,ORD-41026,CUS-00347,2026-08-17T08:56:21,app_chat,I ordered a paneer roll but got a chicken roll from Tandoor Bistro.,WRONG_ITEM
+TKT-10948,ORD-31651,CUS-01225,2026-08-17T09:06:11,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10949,ORD-35355,CUS-01280,2026-08-17T11:21:32,email,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10950,ORD-39523,CUS-01676,2026-08-17T13:11:24,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-10951,ORD-32951,CUS-00829,2026-08-17T15:15:05,phone,I cannot apply my coupon code at checkout. I order from here every week.,OTHER
+TKT-10952,ORD-34864,CUS-01355,2026-08-17T19:37:49,email,How do I delete my saved card from the app?,OTHER
+TKT-10953,ORD-41662,CUS-00834,2026-08-17T20:17:17,app_chat,Half the items in order ORD-41662 were missing.,WRONG_ITEM
+TKT-10954,ORD-37594,CUS-01576,2026-08-17T22:28:28,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10955,ORD-34924,CUS-00930,2026-08-17T22:55:08,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10956,ORD-33648,CUS-01514,2026-08-17T23:23:06,app_chat,Order ORD-33648 was delayed because the kitchen at Bombay Bistro was not ready.,KITCHEN_DELAY
+TKT-10957,ORD-31694,CUS-01519,2026-08-18T00:00:27,email,The app crashed while I was placing my order. Otherwise the app works fine.,OTHER
+TKT-10958,ORD-42033,CUS-00965,2026-08-18T05:40:17,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10959,ORD-33783,CUS-00159,2026-08-18T07:07:00,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10960,ORD-36355,CUS-00265,2026-08-18T09:21:57,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10961,ORD-32886,CUS-01040,2026-08-18T10:08:23,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-10962,ORD-42894,CUS-00560,2026-08-18T10:46:04,email,I entered my old address by mistake for order ORD-42894.,CUSTOMER_UNAVAILABLE
+TKT-10963,ORD-35590,CUS-00454,2026-08-18T14:02:07,app_chat,Food was still being cooked when the delivery partner arrived at Spice House.,KITCHEN_DELAY
+TKT-10964,ORD-43776,CUS-01905,2026-08-18T15:20:32,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10965,ORD-41634,CUS-00293,2026-08-18T16:49:20,email,My pizza box was crushed and the pizza was ruined. The rider was polite though.,DAMAGED_IN_TRANSIT
+TKT-10966,ORD-43821,CUS-01101,2026-08-18T19:46:32,email,Wrong dish delivered. This is not what I ordered from Royal Express.,WRONG_ITEM
+TKT-10967,ORD-44523,CUS-00304,2026-08-18T21:05:53,email,"The rider reached Bombay Kitchen on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10968,ORD-31190,CUS-00350,2026-08-18T21:40:35,email,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10969,ORD-35566,CUS-00787,2026-08-19T00:15:34,app_chat,"The rider got lost twice and ignored the navigation, order ORD-35566 came late.",RIDER_DELAY
+TKT-10970,ORD-31569,CUS-00478,2026-08-19T00:48:25,phone,I entered my old address by mistake for order ORD-31569.,CUSTOMER_UNAVAILABLE
+TKT-10971,ORD-30323,CUS-00436,2026-08-19T01:07:11,app_chat,"One item was missing from order ORD-30323, the dessert never came.",WRONG_ITEM
+TKT-10972,ORD-43311,CUS-01056,2026-08-19T02:01:29,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-10973,ORD-31959,CUS-00364,2026-08-19T03:07:31,email,Tracking showed the rider standing still for 15 minutes after pickup. I order from here every week.,RIDER_DELAY
+TKT-10974,ORD-39827,CUS-01616,2026-08-19T03:16:09,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-10975,ORD-41638,CUS-01901,2026-08-19T05:27:42,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-10976,ORD-32824,CUS-00282,2026-08-19T05:34:51,app_chat,The delivery guy took a long detour and the food arrived cold. The rider was polite though.,RIDER_DELAY
+TKT-10977,ORD-37120,CUS-00057,2026-08-19T08:38:07,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10978,ORD-34180,CUS-01610,2026-08-19T12:01:52,phone,I entered my old address by mistake for order ORD-34180.,CUSTOMER_UNAVAILABLE
+TKT-10979,ORD-39401,CUS-01512,2026-08-19T12:14:18,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-10980,ORD-44446,CUS-00012,2026-08-19T13:50:07,app_chat,Bombay Corner took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-10981,ORD-38769,CUS-00226,2026-08-19T14:10:17,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-10982,ORD-40808,CUS-00521,2026-08-19T17:26:04,email,"The rider reached Coastal Bowl on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-10983,ORD-37611,CUS-01612,2026-08-19T19:17:42,app_chat,Food was still being cooked when the delivery partner arrived at Lotus Garden.,KITCHEN_DELAY
+TKT-10984,ORD-34032,CUS-01789,2026-08-19T23:12:22,email,I cannot apply my coupon code at checkout.,OTHER
+TKT-10985,ORD-44299,CUS-00123,2026-08-19T23:26:56,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10986,ORD-36398,CUS-00438,2026-08-20T03:00:41,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10987,ORD-35426,CUS-01693,2026-08-20T03:11:47,email,I cannot apply my coupon code at checkout.,OTHER
+TKT-10988,ORD-43355,CUS-01447,2026-08-20T04:02:18,app_chat,I entered my old address by mistake for order ORD-43355.,CUSTOMER_UNAVAILABLE
+TKT-10989,ORD-43668,CUS-01278,2026-08-20T05:08:44,app_chat,My food left Bombay Table early but the rider took ages to reach me.,RIDER_DELAY
+TKT-10990,ORD-35459,CUS-01278,2026-08-20T09:16:29,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-10991,ORD-44599,CUS-01303,2026-08-20T09:21:05,app_chat,Half the items in order ORD-44599 were missing.,WRONG_ITEM
+TKT-10992,ORD-40319,CUS-01875,2026-08-20T10:51:32,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-10993,ORD-31391,CUS-00262,2026-08-20T14:43:35,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-10994,ORD-38351,CUS-00964,2026-08-20T14:53:24,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-10995,ORD-39689,CUS-00021,2026-08-20T17:27:01,email,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-10996,ORD-37501,CUS-00652,2026-08-20T19:16:39,app_chat,Order ORD-37501 was delayed because the kitchen at Coastal Express was not ready. Otherwise the app works fine.,KITCHEN_DELAY
+TKT-10997,ORD-37732,CUS-00061,2026-08-20T19:46:28,app_chat,Order ORD-37732 was delayed because the kitchen at Royal Garden was not ready.,KITCHEN_DELAY
+TKT-10998,ORD-30105,CUS-01271,2026-08-20T19:53:21,app_chat,"One item was missing from order ORD-30105, the dessert never came.",WRONG_ITEM
+TKT-50003,ORD-50003,CUS-01993,2026-08-20T21:36:00,app_chat,The rider took a very long route and my order arrived late.,RIDER_DELAY
+TKT-10999,ORD-40369,CUS-00435,2026-08-20T22:47:06,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-11000,ORD-38167,CUS-01553,2026-08-20T23:10:39,app_chat,Please change the email address on my account.,OTHER
+TKT-11001,ORD-30240,CUS-01295,2026-08-21T02:48:02,email,I cannot apply my coupon code at checkout. The rider was polite though.,OTHER
+TKT-11002,ORD-31069,CUS-01821,2026-08-21T02:48:41,app_chat,Tandoor Dhaba took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11003,ORD-34422,CUS-00454,2026-08-21T03:09:37,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-11004,ORD-41388,CUS-01705,2026-08-21T04:30:50,app_chat,My food left Lotus Garden early but the rider took ages to reach me.,RIDER_DELAY
+TKT-11005,ORD-41796,CUS-01153,2026-08-21T05:31:40,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-11006,ORD-42500,CUS-00717,2026-08-21T07:00:39,email,I ordered a paneer roll but got a chicken roll from Golden Table.,WRONG_ITEM
+TKT-11007,ORD-33613,CUS-00925,2026-08-21T09:17:24,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-11008,ORD-30913,CUS-01948,2026-08-21T09:24:50,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-11009,ORD-41219,CUS-00393,2026-08-21T09:45:58,app_chat,Tandoor Dhaba took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11010,ORD-44767,CUS-01343,2026-08-21T12:40:30,email,"The rider reached Coastal House on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-11011,ORD-33768,CUS-00239,2026-08-21T13:07:44,app_chat,Order ORD-33768 was delayed because the kitchen at Golden Street was not ready.,KITCHEN_DELAY
+TKT-11012,ORD-35016,CUS-00059,2026-08-21T15:12:23,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-11013,ORD-33460,CUS-01817,2026-08-21T18:55:39,phone,I gave the wrong flat number so the rider could not find me. Otherwise the app works fine.,CUSTOMER_UNAVAILABLE
+TKT-11014,ORD-41604,CUS-00333,2026-08-21T19:23:30,email,How do I delete my saved card from the app?,OTHER
+TKT-11015,ORD-34850,CUS-00449,2026-08-21T19:39:07,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-11016,ORD-30242,CUS-00468,2026-08-21T20:14:59,app_chat,Tracking showed the rider standing still for 15 minutes after pickup. I order from here every week.,RIDER_DELAY
+TKT-11017,ORD-43723,CUS-01396,2026-08-21T23:13:48,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11018,ORD-31051,CUS-00836,2026-08-22T00:15:53,app_chat,Spice Express took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11019,ORD-42048,CUS-01119,2026-08-22T03:05:23,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-11020,ORD-35651,CUS-00732,2026-08-22T03:27:52,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-11021,ORD-33153,CUS-01921,2026-08-22T04:08:46,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-11022,ORD-40267,CUS-01799,2026-08-22T05:00:15,email,"The rider got lost twice and ignored the navigation, order ORD-40267 came late.",RIDER_DELAY
+TKT-11023,ORD-43802,CUS-00445,2026-08-22T17:09:09,app_chat,The app charged me twice for order ORD-43802.,OTHER
+TKT-11024,ORD-34391,CUS-01895,2026-08-22T17:36:09,app_chat,Order ORD-34391 was delayed because the kitchen at Masala Bistro was not ready.,KITCHEN_DELAY
+TKT-11025,ORD-38800,CUS-00304,2026-08-22T17:52:40,app_chat,The curry had spilled all over the bag when it arrived. Otherwise the app works fine.,DAMAGED_IN_TRANSIT
+TKT-11026,ORD-30932,CUS-00769,2026-08-22T20:02:20,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-11027,ORD-39908,CUS-00414,2026-08-22T21:07:56,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late. I order from here every week.,RIDER_DELAY
+TKT-11028,ORD-30935,CUS-01958,2026-08-22T22:54:48,phone,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-11029,ORD-30352,CUS-01769,2026-08-22T23:30:50,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-11030,ORD-42024,CUS-01565,2026-08-23T00:15:58,app_chat,Half the items in order ORD-42024 were missing.,WRONG_ITEM
+TKT-11031,ORD-37918,CUS-01607,2026-08-23T00:26:22,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11032,ORD-40403,CUS-00649,2026-08-23T02:54:09,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11033,ORD-32866,CUS-00276,2026-08-23T03:08:51,app_chat,Wrong dish delivered. This is not what I ordered from Golden Street.,WRONG_ITEM
+TKT-11034,ORD-43376,CUS-00856,2026-08-23T04:03:21,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-11035,ORD-42454,CUS-00514,2026-08-23T04:09:51,app_chat,"The rider reached Tandoor Dhaba on time but the food was not ready, so my order came late. I order from here every week.",KITCHEN_DELAY
+TKT-11036,ORD-40583,CUS-01516,2026-08-23T04:29:11,phone,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-11037,ORD-34681,CUS-01789,2026-08-23T07:22:35,email,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-11038,ORD-33688,CUS-00300,2026-08-23T07:33:26,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11039,ORD-37938,CUS-01129,2026-08-23T07:53:14,email,Half the items in order ORD-37938 were missing. The rider was polite though.,WRONG_ITEM
+TKT-11040,ORD-30858,CUS-00934,2026-08-23T08:08:35,app_chat,I ordered a paneer roll but got a chicken roll from Green Street.,WRONG_ITEM
+TKT-11041,ORD-36717,CUS-01079,2026-08-23T09:40:50,app_chat,Food was still being cooked when the delivery partner arrived at Coastal Garden.,KITCHEN_DELAY
+TKT-11042,ORD-36940,CUS-01659,2026-08-23T11:24:00,phone,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11043,ORD-31949,CUS-00182,2026-08-23T12:02:15,phone,The app crashed while I was placing my order.,OTHER
+TKT-11044,ORD-32003,CUS-00998,2026-08-23T13:02:59,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11045,ORD-33154,CUS-01187,2026-08-23T13:17:34,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-11046,ORD-44954,CUS-00963,2026-08-23T14:16:43,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-11047,ORD-39666,CUS-01040,2026-08-23T14:56:04,email,Food was still being cooked when the delivery partner arrived at Urban Bowl.,KITCHEN_DELAY
+TKT-11048,ORD-39964,CUS-00053,2026-08-23T16:17:15,app_chat,The drinks leaked and soaked the food during delivery. The rider was polite though.,DAMAGED_IN_TRANSIT
+TKT-11049,ORD-43614,CUS-01604,2026-08-23T18:11:04,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-11050,ORD-43445,CUS-00864,2026-08-23T20:23:45,app_chat,"The rider got lost twice and ignored the navigation, order ORD-43445 came late.",RIDER_DELAY
+TKT-11051,ORD-39495,CUS-01114,2026-08-23T23:56:16,phone,Coastal Garden took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11052,ORD-39635,CUS-00897,2026-08-24T04:57:24,email,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-11053,ORD-30442,CUS-00483,2026-08-24T05:15:26,app_chat,"One item was missing from order ORD-30442, the dessert never came.",WRONG_ITEM
+TKT-11054,ORD-41398,CUS-00689,2026-08-24T05:48:03,phone,"One item was missing from order ORD-41398, the dessert never came.",WRONG_ITEM
+TKT-11055,ORD-32660,CUS-01681,2026-08-24T06:24:57,email,I entered my old address by mistake for order ORD-32660.,CUSTOMER_UNAVAILABLE
+TKT-11056,ORD-33195,CUS-01108,2026-08-24T07:34:31,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-11057,ORD-31698,CUS-01184,2026-08-24T09:17:26,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11058,ORD-31559,CUS-00414,2026-08-24T10:19:59,email,Order ORD-31559 was delayed because the kitchen at Coastal Kitchen was not ready.,KITCHEN_DELAY
+TKT-11059,ORD-38851,CUS-01435,2026-08-24T11:32:50,phone,"The rider reached Royal Corner on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-11060,ORD-33814,CUS-01181,2026-08-24T14:54:07,email,"The rider got lost twice and ignored the navigation, order ORD-33814 came late.",RIDER_DELAY
+TKT-11061,ORD-40095,CUS-01392,2026-08-24T15:14:24,app_chat,Golden Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11062,ORD-39505,CUS-01662,2026-08-24T16:35:24,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11063,ORD-44031,CUS-01489,2026-08-24T17:19:54,app_chat,The drinks leaked and soaked the food during delivery. The rider was polite though.,DAMAGED_IN_TRANSIT
+TKT-11064,ORD-44585,CUS-00351,2026-08-24T18:49:21,phone,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-11065,ORD-31382,CUS-01135,2026-08-24T22:14:41,phone,Food was still being cooked when the delivery partner arrived at Green Street.,KITCHEN_DELAY
+TKT-11066,ORD-30729,CUS-01520,2026-08-24T23:50:20,app_chat,"One item was missing from order ORD-30729, the dessert never came. The rider was polite though.",WRONG_ITEM
+TKT-11067,ORD-44408,CUS-00279,2026-08-25T01:24:57,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-11068,ORD-32383,CUS-01063,2026-08-25T01:55:47,email,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-11069,ORD-32075,CUS-01491,2026-08-25T02:05:08,app_chat,I entered my old address by mistake for order ORD-32075.,CUSTOMER_UNAVAILABLE
+TKT-11070,ORD-37431,CUS-01961,2026-08-25T04:57:01,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-11071,ORD-37091,CUS-00786,2026-08-25T06:17:03,app_chat,Royal Express took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11072,ORD-38397,CUS-00542,2026-08-25T07:24:14,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-11073,ORD-36665,CUS-01285,2026-08-25T07:25:28,app_chat,Please change the email address on my account.,OTHER
+TKT-11074,ORD-42245,CUS-01159,2026-08-25T11:37:45,email,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-11075,ORD-42324,CUS-00528,2026-08-25T11:44:00,app_chat,The app charged me twice for order ORD-42324.,OTHER
+TKT-11076,ORD-31137,CUS-01514,2026-08-25T12:00:07,app_chat,My food left Urban Kitchen early but the rider took ages to reach me.,RIDER_DELAY
+TKT-11077,ORD-30515,CUS-00934,2026-08-25T13:46:23,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-11078,ORD-42041,CUS-00803,2026-08-25T15:47:03,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11079,ORD-38602,CUS-00624,2026-08-25T16:41:40,app_chat,"One item was missing from order ORD-38602, the dessert never came.",WRONG_ITEM
+TKT-11080,ORD-44276,CUS-01004,2026-08-25T18:32:04,email,The delivery partner kept going in the wrong direction on the map and reached very late. The rider was polite though.,RIDER_DELAY
+TKT-11081,ORD-37761,CUS-01815,2026-08-25T18:33:24,app_chat,I entered my old address by mistake for order ORD-37761.,CUSTOMER_UNAVAILABLE
+TKT-11082,ORD-32160,CUS-00179,2026-08-25T20:25:05,email,My address pin was wrong and the rider went to another building. I order from here every week.,CUSTOMER_UNAVAILABLE
+TKT-11083,ORD-36510,CUS-01978,2026-08-25T21:32:37,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-11084,ORD-38414,CUS-00441,2026-08-25T21:50:50,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-11085,ORD-35062,CUS-00918,2026-08-25T23:03:59,phone,My food left Spice Corner early but the rider took ages to reach me.,RIDER_DELAY
+TKT-11086,ORD-38603,CUS-00899,2026-08-26T04:22:40,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-11087,ORD-44410,CUS-01512,2026-08-26T08:44:23,phone,Food was still being cooked when the delivery partner arrived at Royal Bowl.,KITCHEN_DELAY
+TKT-11088,ORD-38135,CUS-01070,2026-08-26T09:03:00,app_chat,I entered my old address by mistake for order ORD-38135. Otherwise the app works fine.,CUSTOMER_UNAVAILABLE
+TKT-11089,ORD-39489,CUS-01464,2026-08-26T09:53:33,email,The delivery guy took a long detour and the food arrived cold. Otherwise the app works fine.,RIDER_DELAY
+TKT-11090,ORD-30045,CUS-00074,2026-08-26T10:00:21,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11091,ORD-30094,CUS-01181,2026-08-26T18:37:12,app_chat,Food was still being cooked when the delivery partner arrived at Coastal Table.,KITCHEN_DELAY
+TKT-11092,ORD-39458,CUS-01945,2026-08-26T22:31:12,email,I entered my old address by mistake for order ORD-39458.,CUSTOMER_UNAVAILABLE
+TKT-11093,ORD-43561,CUS-01448,2026-08-26T23:37:49,app_chat,Saffron Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time. I order from here every week.,KITCHEN_DELAY
+TKT-11094,ORD-35893,CUS-01966,2026-08-27T00:47:21,email,Order ORD-35893 arrived with the soup spilled inside the bag.,DAMAGED_IN_TRANSIT
+TKT-11095,ORD-38305,CUS-01421,2026-08-27T02:46:31,email,Wrong dish delivered. This is not what I ordered from Golden Garden.,WRONG_ITEM
+TKT-11096,ORD-32142,CUS-01133,2026-08-27T04:59:59,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-11097,ORD-34656,CUS-01994,2026-08-27T05:14:40,email,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11098,ORD-34862,CUS-00350,2026-08-27T06:18:04,app_chat,"The rider got lost twice and ignored the navigation, order ORD-34862 came late.",RIDER_DELAY
+TKT-11099,ORD-42629,CUS-00913,2026-08-27T07:20:25,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-11100,ORD-39764,CUS-00784,2026-08-27T07:32:15,email,Food was still being cooked when the delivery partner arrived at Masala Garden.,KITCHEN_DELAY
+TKT-11101,ORD-42718,CUS-01321,2026-08-27T08:12:44,app_chat,Please change the email address on my account.,OTHER
+TKT-11102,ORD-35348,CUS-01811,2026-08-27T08:22:44,app_chat,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-11103,ORD-38997,CUS-01329,2026-08-27T08:47:00,phone,I received someone else's food with completely different items. The rider was polite though.,WRONG_ITEM
+TKT-11104,ORD-38289,CUS-01554,2026-08-27T12:15:51,phone,The cake was smashed when the rider handed it over.,DAMAGED_IN_TRANSIT
+TKT-11105,ORD-44514,CUS-00697,2026-08-27T13:52:26,app_chat,The rider told me the restaurant had not even started cooking when he got there. The rider was polite though.,KITCHEN_DELAY
+TKT-11106,ORD-37465,CUS-01182,2026-08-27T15:03:32,email,I cannot apply my coupon code at checkout.,OTHER
+TKT-11107,ORD-43360,CUS-00914,2026-08-27T15:35:41,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11108,ORD-31955,CUS-01814,2026-08-27T17:04:33,app_chat,The curry had spilled all over the bag when it arrived.,DAMAGED_IN_TRANSIT
+TKT-11109,ORD-34102,CUS-01596,2026-08-27T17:50:57,app_chat,"The rider got lost twice and ignored the navigation, order ORD-34102 came late.",RIDER_DELAY
+TKT-11110,ORD-36257,CUS-01246,2026-08-27T18:11:46,app_chat,Order ORD-36257 was delayed because the kitchen at Coastal Express was not ready.,KITCHEN_DELAY
+TKT-11111,ORD-32005,CUS-00260,2026-08-27T18:29:47,phone,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-11112,ORD-42133,CUS-01466,2026-08-27T19:20:53,email,The app charged me twice for order ORD-42133.,OTHER
+TKT-11113,ORD-44823,CUS-00485,2026-08-27T20:44:59,app_chat,Lotus Street took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11114,ORD-32805,CUS-00608,2026-08-27T22:09:00,phone,Half the items in order ORD-32805 were missing. I order from here every week.,WRONG_ITEM
+TKT-11115,ORD-39881,CUS-00341,2026-08-27T22:19:19,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11116,ORD-40509,CUS-00462,2026-08-27T23:53:18,app_chat,My food left Lotus Street early but the rider took ages to reach me.,RIDER_DELAY
+TKT-11117,ORD-39446,CUS-01859,2026-08-28T00:23:43,app_chat,"The rider reached Spice Street on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-11118,ORD-44152,CUS-00678,2026-08-28T02:05:48,app_chat,The app crashed while I was placing my order.,OTHER
+TKT-11119,ORD-31011,CUS-00888,2026-08-28T02:10:32,email,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-11120,ORD-41072,CUS-01664,2026-08-28T04:45:43,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-11121,ORD-37644,CUS-01794,2026-08-28T05:49:26,app_chat,"One item was missing from order ORD-37644, the dessert never came.",WRONG_ITEM
+TKT-11122,ORD-42252,CUS-01810,2026-08-28T06:54:07,app_chat,The rider picked up the food quickly but then stopped for a long time on the way. I order from here every week.,RIDER_DELAY
+TKT-11123,ORD-44563,CUS-01354,2026-08-28T07:25:03,phone,"The rider got lost twice and ignored the navigation, order ORD-44563 came late. I order from here every week.",RIDER_DELAY
+TKT-11124,ORD-43705,CUS-01547,2026-08-28T08:13:55,phone,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-11125,ORD-33687,CUS-00927,2026-08-28T10:05:05,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-11126,ORD-37301,CUS-00213,2026-08-28T10:14:32,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-11127,ORD-30090,CUS-01520,2026-08-28T10:39:03,app_chat,"The rider got lost twice and ignored the navigation, order ORD-30090 came late.",RIDER_DELAY
+TKT-11128,ORD-37830,CUS-00231,2026-08-28T11:08:14,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-11129,ORD-32239,CUS-00357,2026-08-28T13:35:27,email,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-11130,ORD-36195,CUS-00471,2026-08-28T20:40:04,app_chat,Order ORD-36195 was delayed because the kitchen at Royal Street was not ready. Otherwise the app works fine.,KITCHEN_DELAY
+TKT-11131,ORD-38276,CUS-01494,2026-08-28T20:49:41,app_chat,"One item was missing from order ORD-38276, the dessert never came.",WRONG_ITEM
+TKT-11132,ORD-42284,CUS-00818,2026-08-28T20:56:02,email,Order ORD-42284 was delayed because the kitchen at Spice Express was not ready.,KITCHEN_DELAY
+TKT-11133,ORD-35745,CUS-01990,2026-08-28T23:00:28,app_chat,I received someone else's food with completely different items.,WRONG_ITEM
+TKT-11134,ORD-37337,CUS-01001,2026-08-28T23:08:26,email,I ordered a paneer roll but got a chicken roll from Royal Garden.,WRONG_ITEM
+TKT-11135,ORD-42888,CUS-00630,2026-08-29T02:55:18,app_chat,Food was still being cooked when the delivery partner arrived at Bombay Bowl.,KITCHEN_DELAY
+TKT-11136,ORD-38493,CUS-01726,2026-08-29T02:55:47,app_chat,The cake was smashed when the rider handed it over. Otherwise the app works fine.,DAMAGED_IN_TRANSIT
+TKT-11137,ORD-31581,CUS-01105,2026-08-29T05:36:12,app_chat,I want to know why my payment is still pending.,OTHER
+TKT-11138,ORD-30118,CUS-01823,2026-08-29T09:49:14,email,I was not at home when the rider came and my phone was switched off.,CUSTOMER_UNAVAILABLE
+TKT-11139,ORD-38363,CUS-00275,2026-08-29T10:49:15,app_chat,Please change the email address on my account.,OTHER
+TKT-11140,ORD-38388,CUS-01865,2026-08-29T12:08:06,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11141,ORD-38170,CUS-01954,2026-08-29T12:34:22,app_chat,Please change the email address on my account.,OTHER
+TKT-11142,ORD-35653,CUS-00857,2026-08-29T13:49:15,phone,Royal Bowl took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11143,ORD-39723,CUS-00436,2026-08-29T13:53:33,phone,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-11144,ORD-37687,CUS-01548,2026-08-29T18:37:47,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11145,ORD-38732,CUS-01885,2026-08-30T01:35:44,phone,"The rider reached Monsoon Bistro on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-11146,ORD-38450,CUS-00083,2026-08-30T04:56:59,email,"One item was missing from order ORD-38450, the dessert never came.",WRONG_ITEM
+TKT-11147,ORD-44522,CUS-01035,2026-08-30T05:23:16,phone,Please change the email address on my account. The rider was polite though.,OTHER
+TKT-11148,ORD-37409,CUS-01867,2026-08-30T08:40:55,email,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-11149,ORD-33712,CUS-01469,2026-08-30T10:59:27,app_chat,The app charged me twice for order ORD-33712. I order from here every week.,OTHER
+TKT-11150,ORD-36543,CUS-01264,2026-08-30T11:12:31,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-11151,ORD-31411,CUS-00317,2026-08-30T12:27:01,app_chat,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-11152,ORD-41921,CUS-00094,2026-08-30T12:28:02,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-11153,ORD-36505,CUS-01714,2026-08-30T12:30:10,email,I ordered a paneer roll but got a chicken roll from Tandoor Dhaba.,WRONG_ITEM
+TKT-11154,ORD-38528,CUS-00878,2026-08-30T13:02:03,phone,"One item was missing from order ORD-38528, the dessert never came.",WRONG_ITEM
+TKT-11155,ORD-44389,CUS-01343,2026-08-30T14:58:57,email,How do I delete my saved card from the app?,OTHER
+TKT-11156,ORD-37755,CUS-00219,2026-08-30T16:03:12,app_chat,"The rider got lost twice and ignored the navigation, order ORD-37755 came late. I order from here every week.",RIDER_DELAY
+TKT-11157,ORD-36242,CUS-00752,2026-08-30T16:19:28,app_chat,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11158,ORD-36449,CUS-00186,2026-08-30T16:56:33,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-11159,ORD-39076,CUS-00186,2026-08-30T20:07:00,app_chat,"The rider got lost twice and ignored the navigation, order ORD-39076 came late.",RIDER_DELAY
+TKT-11160,ORD-44803,CUS-01744,2026-08-30T20:11:38,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-11161,ORD-33404,CUS-00423,2026-08-30T21:40:33,email,The app charged me twice for order ORD-33404.,OTHER
+TKT-11162,ORD-41118,CUS-00598,2026-08-31T00:34:37,app_chat,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-11163,ORD-43045,CUS-01191,2026-08-31T00:56:49,app_chat,My address pin was wrong and the rider went to another building.,CUSTOMER_UNAVAILABLE
+TKT-11164,ORD-40139,CUS-01696,2026-08-31T08:05:15,app_chat,Golden Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time. The rider was polite though.,KITCHEN_DELAY
+TKT-11165,ORD-32664,CUS-01976,2026-08-31T08:27:43,email,My pizza box was crushed and the pizza was ruined.,DAMAGED_IN_TRANSIT
+TKT-11166,ORD-35772,CUS-00697,2026-08-31T15:52:52,email,"Sorry, I missed the rider's calls because I was in a meeting.",CUSTOMER_UNAVAILABLE
+TKT-11167,ORD-43233,CUS-01249,2026-08-31T19:08:20,app_chat,The rider told me the restaurant had not even started cooking when he got there. I order from here every week.,KITCHEN_DELAY
+TKT-11168,ORD-33812,CUS-00407,2026-08-31T21:50:28,app_chat,Green Kitchen took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11169,ORD-30267,CUS-01830,2026-08-31T23:59:59,app_chat,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-11170,ORD-30433,CUS-01289,2026-08-31T23:59:59,app_chat,The drinks leaked and soaked the food during delivery.,DAMAGED_IN_TRANSIT
+TKT-11171,ORD-30755,CUS-00280,2026-08-31T23:59:59,phone,Royal Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11172,ORD-31297,CUS-01199,2026-08-31T23:59:59,email,The delivery partner kept going in the wrong direction on the map and reached very late.,RIDER_DELAY
+TKT-11173,ORD-31368,CUS-01710,2026-08-31T23:59:59,app_chat,I gave the wrong flat number so the rider could not find me.,CUSTOMER_UNAVAILABLE
+TKT-11174,ORD-31669,CUS-00334,2026-08-31T23:59:59,app_chat,How do I delete my saved card from the app?,OTHER
+TKT-11175,ORD-31683,CUS-01009,2026-08-31T23:59:59,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-11176,ORD-32485,CUS-00178,2026-08-31T23:59:59,app_chat,The delivery guy took a long detour and the food arrived cold.,RIDER_DELAY
+TKT-11177,ORD-32585,CUS-01997,2026-08-31T23:59:59,email,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-11178,ORD-32675,CUS-01900,2026-08-31T23:59:59,app_chat,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-11179,ORD-32930,CUS-00786,2026-08-31T23:59:59,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
+TKT-11180,ORD-33416,CUS-00124,2026-08-31T23:59:59,email,I cannot apply my coupon code at checkout.,OTHER
+TKT-11181,ORD-33954,CUS-01887,2026-08-31T23:59:59,email,The restaurant was very slow to pack my order while the rider waited outside.,KITCHEN_DELAY
+TKT-11182,ORD-34314,CUS-00752,2026-08-31T23:59:59,phone,"The rider got lost twice and ignored the navigation, order ORD-34314 came late. I order from here every week.",RIDER_DELAY
+TKT-11183,ORD-35693,CUS-01027,2026-08-31T23:59:59,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-11184,ORD-35777,CUS-01210,2026-08-31T23:59:59,app_chat,I ordered a paneer roll but got a chicken roll from Monsoon Street.,WRONG_ITEM
+TKT-11185,ORD-36311,CUS-01235,2026-08-31T23:59:59,phone,"The rider could not reach me, I was out and did not pick up.",CUSTOMER_UNAVAILABLE
+TKT-11186,ORD-37174,CUS-00735,2026-08-31T23:59:59,app_chat,"My order was incomplete, the drinks were not in the bag.",WRONG_ITEM
+TKT-11187,ORD-37192,CUS-00375,2026-08-31T23:59:59,app_chat,Please change the email address on my account.,OTHER
+TKT-11188,ORD-38075,CUS-00426,2026-08-31T23:59:59,app_chat,Tracking showed the rider standing still for 15 minutes after pickup.,RIDER_DELAY
+TKT-11189,ORD-38508,CUS-00642,2026-08-31T23:59:59,app_chat,I cannot apply my coupon code at checkout.,OTHER
+TKT-11190,ORD-39247,CUS-00863,2026-08-31T23:59:59,app_chat,"The rider reached Bombay Garden on time but the food was not ready, so my order came late.",KITCHEN_DELAY
+TKT-11191,ORD-39343,CUS-00319,2026-08-31T23:59:59,app_chat,Order ORD-39343 was delayed because the kitchen at Tandoor House was not ready.,KITCHEN_DELAY
+TKT-11192,ORD-39365,CUS-00790,2026-08-31T23:59:59,app_chat,Tracking showed the rider standing still for 15 minutes after pickup. I order from here every week.,RIDER_DELAY
+TKT-11193,ORD-40569,CUS-01869,2026-08-31T23:59:59,email,The container broke on the way and the food leaked everywhere.,DAMAGED_IN_TRANSIT
+TKT-11194,ORD-42439,CUS-01116,2026-08-31T23:59:59,app_chat,Saffron Bowl took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11195,ORD-43659,CUS-01591,2026-08-31T23:59:59,email,Lotus Bistro took forever to prepare the food. The rider said he waited at the kitchen for a long time.,KITCHEN_DELAY
+TKT-11196,ORD-44528,CUS-00945,2026-08-31T23:59:59,phone,The rider told me the restaurant had not even started cooking when he got there.,KITCHEN_DELAY
+TKT-11197,ORD-44811,CUS-01643,2026-08-31T23:59:59,app_chat,The rider picked up the food quickly but then stopped for a long time on the way.,RIDER_DELAY
